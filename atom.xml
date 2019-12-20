@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>�ղ�</title>
+  <title>Collection</title>
   
-  
+  <subtitle>wxl103010个人博客</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://wxl103010.github.io/"/>
-  <updated>2019-12-19T13:00:29.807Z</updated>
+  <updated>2019-12-20T03:37:06.402Z</updated>
   <id>http://wxl103010.github.io/</id>
   
   <author>
@@ -17,11 +17,41 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>博客主题细节修改</title>
+    <link href="http://wxl103010.github.io/2019/12/19/bo-ke-zhu-ti-xi-jie-xiu-gai/"/>
+    <id>http://wxl103010.github.io/2019/12/19/bo-ke-zhu-ti-xi-jie-xiu-gai/</id>
+    <published>2019-12-19T15:51:05.000Z</published>
+    <updated>2019-12-20T03:37:06.402Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;说明&quot;&gt;&lt;a href=&quot;#说明&quot; class=&quot;headerlink&quot; title=&quot;说明&quot;&gt;&lt;/a&gt;说明&lt;/h2&gt;&lt;p&gt;在使用matery主题的时候，遇到了一些问题，所以这里作些记录，把这个需要处理的问题归类一下。&lt;/p&gt;
+&lt;h3
+        
+      
+    
+    </summary>
+    
+    
+      <category term="博客搭建" scheme="http://wxl103010.github.io/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
+    
+    
+      <category term="matery" scheme="http://wxl103010.github.io/tags/matery/"/>
+    
+      <category term="博客搭建" scheme="http://wxl103010.github.io/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
+    
+  </entry>
+  
+  <entry>
     <title>为博客更换主题</title>
     <link href="http://wxl103010.github.io/2019/12/19/wei-bo-ke-geng-huan-zhu-ti/"/>
     <id>http://wxl103010.github.io/2019/12/19/wei-bo-ke-geng-huan-zhu-ti/</id>
     <published>2019-12-19T11:46:20.000Z</published>
-    <updated>2019-12-19T13:00:29.807Z</updated>
+    <updated>2019-12-20T03:36:39.920Z</updated>
     
     <summary type="html">
     
@@ -50,7 +80,7 @@
     <link href="http://wxl103010.github.io/2019/12/19/da-jian-ge-ren-bo-ke/"/>
     <id>http://wxl103010.github.io/2019/12/19/da-jian-ge-ren-bo-ke/</id>
     <published>2019-12-18T19:19:12.000Z</published>
-    <updated>2019-12-19T13:02:33.818Z</updated>
+    <updated>2019-12-20T03:36:22.839Z</updated>
     
     <summary type="html">
     

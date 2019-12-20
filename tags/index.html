@@ -72,11 +72,43 @@
   <li class="hide-on-med-and-down nav-item">
     
     <a href="/categories" class="waves-effect waves-light">
+
       
       <i class="fas fa-bookmark" style="zoom: 0.6;"></i>
       
-      <span>分类目录</span>
+      <span>目录</span>
+      <i class="fas fa-chevron-down" aria-hidden="true" style="zoom: 0.6;"></i>
     </a>
+    <ul class="sub-nav menus_item_child ">
+      
+      <li>
+        <a href="/null">
+          
+          <i class="fa-music" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>音乐</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/null">
+          
+          <i class="fa-book" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>小说</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/null">
+          
+          <i class="fa-image" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>图片</span>
+        </a>
+      </li>
+      
+    </ul>
     
   </li>
   
@@ -162,12 +194,46 @@
         
         <li class="m-nav-item">
 	  
-		<a href="/categories" class="waves-effect waves-light">
+		<a href="javascript:;">
 			
-			    <i class="fa-fw fas fa-bookmark"></i>
+				<i class="fa-fw fas fa-bookmark"></i>
 			
-			分类目录
+			目录
+			<span class="m-icon"><i class="fas fa-chevron-right"></i></span>
 		</a>
+            <ul  style="background:  ;" >
+              
+                <li>   
+				
+                  <a href="/null " style="margin-left:75px";>
+				  
+				   <i class="fa fa-music" style="position: absolute;left:50px" ></i>
+			      
+		          <span>音乐</span>
+                  </a>
+                </li>
+              
+                <li>   
+				
+                  <a href="/null " style="margin-left:75px";>
+				  
+				   <i class="fa fa-book" style="position: absolute;left:50px" ></i>
+			      
+		          <span>小说</span>
+                  </a>
+                </li>
+              
+                <li>   
+				
+                  <a href="/null " style="margin-left:75px";>
+				  
+				   <i class="fa fa-image" style="position: absolute;left:50px" ></i>
+			      
+		          <span>图片</span>
+                  </a>
+                </li>
+               
+            </ul>
           
         </li>
         
@@ -236,7 +302,7 @@
                         startDelay: 300,
                         typeSpeed: 100,
                         loop: true,
-                        backSpeed: 5000,
+                        backSpeed: 50,
                         showCursor: true
                     });
                 </script>
@@ -269,29 +335,29 @@
             <div class="tag-chips">
                 
                 
-                <a href="/tags/matery/" title="matery: 2">
+                <a href="/tags/matery/" title="matery: 3">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
                             data-tagname="matery" style="background-color: #F9EBEA;">matery
-                        <span class="tag-length">2</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/" title="博客搭建: 3">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="博客搭建" style="background-color: #F5EEF8;">博客搭建
                         <span class="tag-length">3</span>
                     </span>
                 </a>
                 
                 
-                <a href="/tags/hexo/" title="hexo: 1">
+                <a href="/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/" title="博客搭建: 4">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="博客搭建" style="background-color: #F5EEF8;">博客搭建
+                        <span class="tag-length">4</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/hexo/" title="hexo: 3">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
                             data-tagname="hexo" style="background-color: #D5F5E3;">hexo
-                        <span class="tag-length">1</span>
+                        <span class="tag-length">3</span>
                     </span>
                 </a>
                 
@@ -319,7 +385,7 @@
 <script type="text/javascript">
     
 
-    $('#tag-wordcloud').jQCloud([{"text":"matery","weight":2,"link":"http://wxl103010.github.io/tags/matery/"},{"text":"博客搭建","weight":3,"link":"http://wxl103010.github.io/tags/博客搭建/"},{"text":"hexo","weight":1,"link":"http://wxl103010.github.io/tags/hexo/"}], {
+    $('#tag-wordcloud').jQCloud([{"text":"matery","weight":3,"link":"http://wxl103010.github.io/tags/matery/"},{"text":"博客搭建","weight":4,"link":"http://wxl103010.github.io/tags/博客搭建/"},{"text":"hexo","weight":3,"link":"http://wxl103010.github.io/tags/hexo/"}], {
         autoResize: true
     });
 </script>

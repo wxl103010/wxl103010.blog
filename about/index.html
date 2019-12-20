@@ -72,11 +72,43 @@
   <li class="hide-on-med-and-down nav-item">
     
     <a href="/categories" class="waves-effect waves-light">
+
       
       <i class="fas fa-bookmark" style="zoom: 0.6;"></i>
       
-      <span>分类目录</span>
+      <span>目录</span>
+      <i class="fas fa-chevron-down" aria-hidden="true" style="zoom: 0.6;"></i>
     </a>
+    <ul class="sub-nav menus_item_child ">
+      
+      <li>
+        <a href="/null">
+          
+          <i class="fa-music" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>音乐</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/null">
+          
+          <i class="fa-book" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>小说</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/null">
+          
+          <i class="fa-image" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>图片</span>
+        </a>
+      </li>
+      
+    </ul>
     
   </li>
   
@@ -162,12 +194,46 @@
         
         <li class="m-nav-item">
 	  
-		<a href="/categories" class="waves-effect waves-light">
+		<a href="javascript:;">
 			
-			    <i class="fa-fw fas fa-bookmark"></i>
+				<i class="fa-fw fas fa-bookmark"></i>
 			
-			分类目录
+			目录
+			<span class="m-icon"><i class="fas fa-chevron-right"></i></span>
 		</a>
+            <ul  style="background:  ;" >
+              
+                <li>   
+				
+                  <a href="/null " style="margin-left:75px";>
+				  
+				   <i class="fa fa-music" style="position: absolute;left:50px" ></i>
+			      
+		          <span>音乐</span>
+                  </a>
+                </li>
+              
+                <li>   
+				
+                  <a href="/null " style="margin-left:75px";>
+				  
+				   <i class="fa fa-book" style="position: absolute;left:50px" ></i>
+			      
+		          <span>小说</span>
+                  </a>
+                </li>
+              
+                <li>   
+				
+                  <a href="/null " style="margin-left:75px";>
+				  
+				   <i class="fa fa-image" style="position: absolute;left:50px" ></i>
+			      
+		          <span>图片</span>
+                  </a>
+                </li>
+               
+            </ul>
           
         </li>
         
@@ -243,7 +309,7 @@
                         startDelay: 300,
                         typeSpeed: 100,
                         loop: true,
-                        backSpeed: 5000,
+                        backSpeed: 50,
                         showCursor: true
                     });
                 </script>
@@ -272,7 +338,7 @@
                     <div class="post-statis col l4 hide-on-med-and-down" data-aos="zoom-in-right">
                         
 <div class="statis">
-    <span class="count"><a href="/">3</a></span>
+    <span class="count"><a href="/">4</a></span>
     <span class="name">文章</span>
 </div>
 
@@ -302,7 +368,7 @@
                                 <div class="post-statis hide-on-large-only" data-aos="zoom-in-right">
                                     
 <div class="statis">
-    <span class="count"><a href="/">3</a></span>
+    <span class="count"><a href="/">4</a></span>
     <span class="name">文章</span>
 </div>
 
@@ -452,7 +518,7 @@
                 name: '文章篇数',
                 type: 'line',
                 color: ['#6772e5'],
-                data: [0,0,0,0,0,0,0,0,0,0,0,0,3],
+                data: [0,0,0,0,0,0,0,0,0,0,0,0,4],
                 markPoint: {
                     symbolSize: 45,
                     color: ['#fa755a','#3ecf8e','#82d3f4'],
@@ -494,7 +560,7 @@
                 type: 'pie',
                 radius: '50%',
                 color: ['#6772e5', '#ff9e0f', '#fa755a', '#3ecf8e', '#82d3f4', '#ab47bc', '#525f7f', '#f51c47', '#26A69A'],
-                data: [{"name":"博客搭建","value":3}],
+                data: [{"name":"博客搭建","value":4}],
                 itemStyle: {
                     emphasis: {
                         shadowBlur: 10,
@@ -531,7 +597,7 @@
                 type: 'bar',
                 color: ['#82d3f4'],
                 barWidth : 18,
-                data: [3,2,1],
+                data: [4,3,3],
                 markPoint: {
                     symbolSize: 45,
                     data: [{

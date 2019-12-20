@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://wxl103010.github.io/"/>
-  <updated>2019-12-20T05:42:10.321Z</updated>
+  <updated>2019-12-20T12:28:57.902Z</updated>
   <id>http://wxl103010.github.io/</id>
   
   <author>
@@ -17,11 +17,42 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>博客主题细节修改</title>
-    <link href="http://wxl103010.github.io/2019/12/19/bo-ke-zhu-ti-xi-jie-xiu-gai/"/>
-    <id>http://wxl103010.github.io/2019/12/19/bo-ke-zhu-ti-xi-jie-xiu-gai/</id>
+    <title>博客添加文章及Markdown</title>
+    <link href="http://wxl103010.github.io/2019/12/20/bo-ke-tian-jia-wen-zhang-ji-markdown/"/>
+    <id>http://wxl103010.github.io/2019/12/20/bo-ke-tian-jia-wen-zhang-ji-markdown/</id>
+    <published>2019-12-20T11:01:13.000Z</published>
+    <updated>2019-12-20T12:28:57.902Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;说明&quot;&gt;&lt;a href=&quot;#说明&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="博客搭建" scheme="http://wxl103010.github.io/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
+    
+    
+      <category term="matery" scheme="http://wxl103010.github.io/tags/matery/"/>
+    
+      <category term="博客搭建" scheme="http://wxl103010.github.io/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
+    
+      <category term="hexo" scheme="http://wxl103010.github.io/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>博客细节修改</title>
+    <link href="http://wxl103010.github.io/2019/12/19/bo-ke-xi-jie-xiu-gai/"/>
+    <id>http://wxl103010.github.io/2019/12/19/bo-ke-xi-jie-xiu-gai/</id>
     <published>2019-12-19T15:51:05.000Z</published>
-    <updated>2019-12-20T05:42:10.321Z</updated>
+    <updated>2019-12-20T12:36:45.887Z</updated>
     
     <summary type="html">
     
@@ -43,6 +74,8 @@
       <category term="matery" scheme="http://wxl103010.github.io/tags/matery/"/>
     
       <category term="博客搭建" scheme="http://wxl103010.github.io/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
+    
+      <category term="hexo" scheme="http://wxl103010.github.io/tags/hexo/"/>
     
   </entry>
   

@@ -504,7 +504,59 @@ echo "清空缓存" &amp;&amp; hexo clean &amp;&amp; echo "更新博客" &amp;&a
 <pre><code>@echo off
 d:
 cd d:\blog
-cmd /k echo.</code></pre><script>
+cmd /k echo.</code></pre><p>4）感觉还是麻烦，整理了半天，现在有个总结式的菜单，一个文件搞定以上三个。</p>
+<p>首先是建一个Blog_batch的批处理文件，放入以下代码：</p>
+<pre><code>@ECHO OFF&amp;PUSHD %~DP0 &amp;TITLE 博客自动处理脚本选择
+color 0a
+
+GOTO MENU
+:MENU
+cls
+echo.
+echo.  ===========博客自动处理脚本选择===========
+echo.
+echo.1、更新并本地启动
+echo.2、更新并上传github
+echo.3、打开博客根目录
+echo.4、退出
+echo.
+echo.
+echo.请选择项目的序号：
+
+set /p ID=
+if "%ID%"=="1" goto cmd1
+if "%ID%"=="2" goto cmd2
+if "%ID%"=="3" goto cmd3
+if "%id%"=="4" exit
+Echo.&amp;Echo 输入无效，请重新输入！
+pause &gt;nul
+Goto MENU
+
+:cmd1
+cls
+d:
+cd d:\blog
+echo "清空缓存" &amp;&amp; hexo clean &amp;&amp; echo "更新博客" &amp;&amp; hexo g &amp;&amp; cls &amp;&amp; echo. &amp;&amp; echo 登录地址：http://localhost:4000 &amp;&amp; echo 按下“Ctrl + c”后输入 n 可退回菜单 &amp;&amp; echo.&amp;&amp; hexo s &amp;&amp; cmd /k Blog_batch
+
+:cmd2
+cls
+d:
+cd d:\blog
+echo "清空缓存" &amp;&amp; hexo clean &amp;&amp; echo "更新博客" &amp;&amp; hexo g &amp;&amp; echo "上传至github中" &amp;&amp; hexo d &amp;&amp; cmd /k Blog_batch
+
+:cmd3
+cls
+d:
+cd d:\blog
+echo.
+echo.输入命令Blog_batch后便可重返菜单
+cmd /k echo.
+
+:cmd4
+echo 1234
+GOTO MENU</code></pre><p>其中的地址根据实际博客文件夹位置修改，该文件的名字也可以自定义，但修改后，内容中的小写menu也要随之进行修改，否则不会跳回菜单。</p>
+<p>另外一个问题，本地启动后，关闭只能是Ctrl + c ，但这样操作会引起关闭批处理，只能是多加一步选 n ，暂时还没有彻底解决办法。</p>
+<script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
             if (!el.dataset.src) { return; }

@@ -4,8 +4,8 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="博客细节修改">
-    <meta name="description" content="对博客进行细微调整">
+    <meta name="keywords" content="搭建个人博客">
+    <meta name="description" content="初始搭建博客">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -13,7 +13,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>博客细节修改 | Collection</title>
+    <title>搭建个人博客 | Collection</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -285,12 +285,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/1.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/13.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">博客细节修改</h1>
+                    <h1 class="description center-align post-title">搭建个人博客</h1>
                 </div>
             </div>
         </div>
@@ -407,10 +407,6 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/matery/">
-                                <span class="chip bg-color">matery</span>
-                            </a>
-                        
                             <a href="/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/">
                                 <span class="chip bg-color">博客搭建</span>
                             </a>
@@ -457,116 +453,110 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h2 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h2><p>在使用matery主题的时候，遇到了一些问题，所以这里作些记录，把这个需要处理的问题归类一下。</p>
-<h2 id="配置修改注意"><a href="#配置修改注意" class="headerlink" title="配置修改注意"></a>配置修改注意</h2><p>1）修改配置时，项目帽号后面要有个空格，不然会报错。例如：enable: true</p>
-<p>2）添加二级目录时，不能只复制配置文件中的内容，这样会报错。粘贴后需要将每一行前在空的地方全部删除，替换为空格，否则一直报错不能成功。</p>
-<h3 id="解决首页标题乱码"><a href="#解决首页标题乱码" class="headerlink" title="解决首页标题乱码"></a>解决首页标题乱码</h3><p>首页正中间的标题与左上角的名字，可以在博客文件夹的_config.yml中修改title和subtitle来进行。</p>
-<p>因为该文件的编码方式默认是ANSI，所以如果想使用中文标题，则需要修改_config.yml的编码方式。</p>
-<p>本人使用Notepad++来修改，先打开文件，然后全选复制，接着修改文件编码方式，这时里面的内容会变为乱码，全部选中粘贴，保存即可。</p>
-<h2 id="评论系统Valine"><a href="#评论系统Valine" class="headerlink" title="评论系统Valine"></a>评论系统Valine</h2><p>1）首先在 <a href="https://leancloud.cn/" target="_blank" rel="noopener">https://leancloud.cn/</a> 这儿先进行账号注册，并且验证完成，然后创建一个应用。</p>
-<p>2）创建好后打开应用的设置，找到应用key，保存appid和appkey。</p>
-<p>3）在安全中心，将自己的域名，也就是博客访问地址添加到Web安全域名中。</p>
-<p>4）打开主题设置文件_config.myl，搜索valine，将enable的值改为true，把第二步保存的内容填写到appId和appKey中。</p>
-<p>这时便可以。这里说明一下，所有的评论数据将保存在Valine中，如果这个账号关联失效，将丢失所有评论。当然了，如果想删哪个，也可以到这里面进行删除。</p>
-<h2 id="评论系统Gitalk"><a href="#评论系统Gitalk" class="headerlink" title="评论系统Gitalk"></a>评论系统Gitalk</h2><p>这个评论系统是需要登录github账号后才可以，使用的也比较多，先记录下添加步骤。</p>
-<p>1）</p>
-<h2 id="hexo配置文件说明"><a href="#hexo配置文件说明" class="headerlink" title="hexo配置文件说明"></a>hexo配置文件说明</h2><p>这个配置文件默认生成的里面基本都是英文，有一些搞不清楚功能是什么，网上有对应的说明，下面是我总结的。内容不是在刚生成的文件中添加的注释，所以最好是参考着来看，不要直接复制粘贴。</p>
-<pre><code># Hexo Configuration
-## Docs: https://hexo.io/docs/configuration.html
-## Source: https://github.com/hexojs/hexo/
+                <h2 id="1、环境部署"><a href="#1、环境部署" class="headerlink" title="1、环境部署"></a>1、环境部署</h2><p>在电脑中想得到一些结果，必须有程序来帮忙进行处理，所以这边需要提前准备安装的程序有两个软件git和Node.js，来帮助进行处理相关事宜。</p>
+<p>git下载地址：<a href="https://git-scm.com/downloads" target="_blank" rel="noopener">https://git-scm.com/downloads</a></p>
+<p>Node.js下载地址：<a href="https://nodejs.org/en/" target="_blank" rel="noopener">https://nodejs.org/en/</a></p>
+<h3 id="Windows安装"><a href="#Windows安装" class="headerlink" title="Windows安装"></a>Windows安装</h3><p>这个操作其实就很简单了，打开下载地址，然后选择Windows版本，下载后打开使用默认安装即可。</p>
+<p>关于64或32位的问题，需要看操作系统是哪个，不过现在一般都是64位的系统了。</p>
+<h3 id="Linux安装"><a href="#Linux安装" class="headerlink" title="Linux安装"></a>Linux安装</h3><p>这个的话就稍麻烦一些，其实是不复杂的。主要是使用好相关命令就行，再一个就是所下载的地址不要弄错了。</p>
+<p>1）键入命令<code>yum -y install git</code>，等待完成后，再输入命令<code>git -v</code>，这时没有报错，而出现版本号，便是git安装成功。</p>
+<p>2）键入命令<code>wget 下载地址</code>，其中的下载地址，可以从官网中找到，右击复制链接即可，成功后可通过命令<code>ls</code>查看到所下载的文件。</p>
+<p>3）接着输入两条命令<code>xz -d 文件名</code>和<code>tar -xvf 文件名</code>，这时便可以看到已经解压后的文件夹。</p>
+<p>4）创建node快捷方式，键入命令<code>ln -s /root/文件夹名/bin/node /usr/local/bin/node</code>。</p>
+<p>5）创建    npm快捷方式，键入命令<code>ln -s /root/文件夹名/bin/npm /usr/local/bin/npm</code>。</p>
+<p>6）通过使用参加<code>-v</code>来检查是否能查询到node和npm的版本号，可以即安装完成。</p>
+<h2 id="2、安装框架"><a href="#2、安装框架" class="headerlink" title="2、安装框架"></a>2、安装框架</h2><p>这里我根据网上的教程，使用的是hexo，现在操作这些都已经非常的简单了，键入命令<code>npm install -g hexo-cli</code>，等待下载完成即可。</p>
+<p>Windows版本下载完成即可使用，如果是Linux则需要再次创建快捷方式，键入命令<code>ln -s /root/文件夹名/bin/hexo /usr/local/bin/hexo</code>。</p>
+<p>最后仍然是通过<code>-v</code>来检查是否能查看版本号。</p>
+<h2 id="3、生成博客"><a href="#3、生成博客" class="headerlink" title="3、生成博客"></a>3、生成博客</h2><p>1）新建文件夹</p>
+<p>Windows中找一个地方创建一个文件夹，例如在D盘中创建blog文件夹，用于存放博客的所有文件。该文件中保存着与博客相关的所有文件，如果博客在创建过程中出现问题，可以直接删除文件然后重新创建，没有任何影响。</p>
+<p>Linux中创建的话使用命令<code>mkdir</code>来进行创建，独立度与Windows中一样。</p>
+<p>2）进入文件夹</p>
+<p>这个时候最好是使用命令行来进行进入，Linux中很简单，直接<code>cd blog</code>即可，Windows中需要运行<code>cmd</code>，然后出现的黑色界面中，输入<code>d:</code>，先切换到D盘，然后输入<code>cd blog</code>。</p>
+<p>3）初始化博客</p>
+<p>键入命令<code>hexo init</code>。</p>
+<p>4）启动博客</p>
+<p>键入命令<code>hexo s</code>，其中的s是缩写，也可以写全<code>hexo server</code>。这时随便打开一个浏览器，输入地址<code>http://localhost:4000/</code>，便可以看到刚刚建好的博客。</p>
+<p>将刚才输入命令的黑色窗口关闭后，博客也会随之关闭。继续查看步骤照上。</p>
+<p>有时候打开后发现有些改变没有生效，那就是启动前要更新一下，使用命令<code>hexo clean</code>和<code>hexo g</code>，接着启动便可以了。</p>
+<h2 id="4、部署到github中"><a href="#4、部署到github中" class="headerlink" title="4、部署到github中"></a>4、部署到github中</h2><p>因为现在为止博客只是在我们的电脑中，要想让其他人也能看到，那就需要添加到公共区域中，常规的方法是将自己的电脑一直开启博客，然后使用域名，电脑可以换成云服务器，但这样成本就增加了，所以根据当前我查到的信息，可以先将博客传到github中，这样只需要做好上传就行了，其余的基本就可以暂时不用考虑。</p>
+<p>1）github官网：<a href="https://github.com/login" target="_blank" rel="noopener">https://github.com/login</a></p>
+<p>2）先在github官网中进行账号注册。</p>
+<p>3）注册好后进入主页，然后在右上方的菜单中选择”New repository“，意思是创建仓库。</p>
+<p>4）接下来出现的界面，主要是将仓库地址确定一下，格式要按照”自定义.github.io“来书写，具体原因我还没查，至少我试过一个结果是不能访问的。</p>
+<p>5）打开电脑中的命令界面，输入<code>npm install --save hexo-deployer-git</code>，这个是安装git部署插件。</p>
+<p>6）在博客的文件夹中，也就是前面自己创建的文件夹中，找到_config.yml文件，然后用记事本打开，找到“Deployment”，将下面的内容改为“type: git”、“repo: git仓库地址”，然后再添加一行“branch: master”。</p>
+<p>其中git仓库地址，不是前面添加仓库时写的地址，而是添加好后，进入仓库界面看到的一个地址，地址后面以git结尾。</p>
+<p>7）这时便可以上传了，依旧照上面的方式，在命令行进入自己创建的文件夹，然后键入命令<code>hexo d</code>，这时系统便会自动将做好的博客上传到github的仓库中。</p>
+<p>第一次上传时，会要求填写github的登录账号和密码，这是正常情况。</p>
+<p>8）上传完毕后，使用自己书写的仓库地址，便能访问刚刚上传的博客了。例如：<a href="http://wxl103010.github.io">http://wxl103010.github.io</a></p>
+<h2 id="5、多余操作"><a href="#5、多余操作" class="headerlink" title="5、多余操作"></a>5、多余操作</h2><p>本人是个非常懒的人，所以以上的步骤中经常得更新、上传、启动，非常的麻烦，我在网上找了找办法，做几个批处理，便可以暂时解决这些问题了。</p>
+<p>使用的办法是做批处理文件，提前写好命令后，到时候直接点击，便会自动操作，再也不需要一点一点来了。下面就是我写的脚本内容。相关的地址可以根据实际的情况来修改，命令也可以按需要进行调整。</p>
+<p>1）更新并本地启动博客</p>
+<pre><code>@echo off
+d:
+cd d:\blog
+echo "清空缓存" &amp;&amp; hexo clean &amp;&amp; echo "更新博客" &amp;&amp; hexo g &amp;&amp; echo 登录地址：http://localhost:4000 &amp;&amp; echo 关闭本窗口即可关闭本地微博 &amp;&amp; hexo s</code></pre><p>2）更新并上传至github</p>
+<pre><code>@echo off
+d
+cd d:\blo
+echo "清空缓存" &amp;&amp; hexo clean &amp;&amp; echo "更新博客" &amp;&amp; hexo g &amp;&amp; echo "上传至github中" &amp;&amp; hexo d</code></pre><p>3）直接进入博客根目录命令行</p>
+<pre><code>@echo off
+d:
+cd d:\blog
+cmd /k echo.</code></pre><p>4）感觉还是麻烦，整理了半天，现在有个总结式的菜单，一个文件搞定以上三个。</p>
+<p>首先是建一个Blog_batch的批处理文件，放入以下代码：</p>
+<pre><code>@ECHO OFF&amp;PUSHD %~DP0 &amp;TITLE 博客自动处理脚本选择
+color 0a
 
-# Site
-title: Collection            # 网站标题
-subtitle: wxl103010个人博客    # 网站副标题
-description: 收藏了不少东西，却没个人能一起分享，很寂寞。    # 网站描述
-keywords:                    # 网站关键词。使用半角逗号分隔多个关键词
-author: wxl103010            # 您的名字
-language: zh-CN                # 网站使用的语言
-timezone: Asia/Shanghai        # 网站时区
+GOTO MENU
+:MENU
+cls
+echo.
+echo.  ===========博客自动处理脚本选择===========
+echo.
+echo.1、更新并本地启动
+echo.2、更新并上传github
+echo.3、打开博客根目录
+echo.4、退出
+echo.
+echo.
+echo.请选择项目的序号：
 
-# URL
-## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://wxl103010.github.io            # 网址
-root: /                                    # 网站根目录
-permalink: :year/:month/:day/:title/    # 文章的永久链接格式
-permalink_defaults:                        # 永久链接中各部分的默认值
-pretty_urls:                            # 改成permalink的值来美化URL
-  trailing_index: true    # 是否在永久链接中保留尾部的 index.html，设置为 false 时去除
-  trailing_html: true    # 是否在永久链接中保留尾部的 .html, 设置为 false 时去除 (对尾部的 index.html无效)
+set /p ID=
+if "%ID%"=="1" goto cmd1
+if "%ID%"=="2" goto cmd2
+if "%ID%"=="3" goto cmd3
+if "%id%"=="4" exit
+Echo.&amp;Echo 输入无效，请重新输入！
+pause &gt;nul
+Goto MENU
 
-# Directory
-source_dir: source            # 资源文件夹，这个文件夹用来存放内容
-public_dir: public            # 公共文件夹，这个文件夹用于存放生成的站点文件
-tag_dir: tags                # 标签文件夹
-archive_dir: archives        # 归档文件夹
-category_dir: categories    # 分类文件夹
-code_dir: downloads/code    # Include code 文件夹，source_dir 下的子目录
-i18n_dir: :lang                # 国际化（i18n）文件夹
-skip_render:                # 跳过指定文件的渲染。匹配到的文件将会被不做改动地复制到 public 目录中。您可使用 glob 表达式来匹配路径。
+:cmd1
+cls
+d:
+cd d:\blog
+echo "清空缓存" &amp;&amp; hexo clean &amp;&amp; echo "更新博客" &amp;&amp; hexo g &amp;&amp; cls &amp;&amp; echo. &amp;&amp; echo 登录地址：http://localhost:4000 &amp;&amp; echo 按下“Ctrl + c”后输入 n 可退回菜单 &amp;&amp; echo.&amp;&amp; hexo s &amp;&amp; cmd /k Blog_batch
 
-# Writing
-new_post_name: :title.md    # 新文章的文件名称
-default_layout: post        # 预设布局
-titlecase: false            # 把标题转换为title case
-external_link:
-  enable: true                    # 在新标签中打开链接
-  field: site                    # 对整个网站（site）生效或仅对文章（post）生效
-  exclude: ''                    # 需要排除的域名。主域名和子域名如 www 需分别配置
-filename_case: 0            # 把文件名称转换为 (1) 小写或 (2) 大写
-render_drafts: false        # 显示草稿
-post_asset_folder: false    # 启动 Asset 文件夹
-relative_link: false        # 把链接改为与根目录的相对位址
-future: true                # 显示未来的文章
-highlight:                    # 代码块的设置
-  enable: false                    # 开启代码块高亮
-  line_number: true                # 显示行数
-  auto_detect: false            # 如果未指定语言，则启用自动检测
-  tab_replace: ''                # 用 n 个空格替换 tabs；如果值为空，则不会替换 tabs
-  wrap: true                    # Wrap the code block in &lt;table&gt;
-  hljs: false                    # Use the hljs-* prefix for CSS classes
+:cmd2
+cls
+d:
+cd d:\blog
+echo "清空缓存" &amp;&amp; hexo clean &amp;&amp; echo "更新博客" &amp;&amp; hexo g &amp;&amp; echo "上传至github中" &amp;&amp; hexo d &amp;&amp; cmd /k Blog_batch
 
-# Home page setting
-# path: Root path for your blogs index page. (default = '')
-# per_page: Posts displayed per page. (0 = disable pagination)
-# order_by: Posts order. (Order by date descending by default)
-index_generator:
-  path: ''
-  per_page: 10
-  order_by: -date
+:cmd3
+cls
+d:
+cd d:\blog
+echo.
+echo.输入命令Blog_batch后便可重返菜单
+cmd /k echo.
 
-# Category &amp; Tag
-default_category: uncategorized    # 默认分类
-category_map:                    # 分类别名
-tag_map:                        # 标签别名
-
-# Metadata elements
-## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
-meta_generator: true
-
-# Date / Time format
-## Hexo uses Moment.js to parse and display date
-## You can customize the date format as defined in
-## http://momentjs.com/docs/#/displaying/format/
-date_format: YYYY-MM-DD            # 日期格式
-time_format: HH:mm:ss            # 时间格式
-## Use post's date for updated date unless set in front-matter
-use_date_for_updated: false        # 启用以后，如果 Front Matter 中没有指定 updated， post.updated 将会使用 date 的值而不是文件的创建时间。在 Git 工作流中这个选项会很有用
-
-# Pagination
-## Set per_page to 0 to disable pagination
-per_page: 12                    # 每页显示的文章量 (0 = 关闭分页功能)
-pagination_dir: page            # 分页目录
-
-# Include / Exclude file(s)
-## include:/exclude: options only apply to the 'source/' folder
-include:                        # Hexo 默认会忽略隐藏文件和文件夹（包括名称以下划线和 . 开头的文件和文件夹，Hexo 的 _posts 和 _data 等目录除外）。通过设置此字段将使 Hexo 处理他们并将它们复制到 source 目录下。
-exclude:                        # Hexo 会忽略这些文件和目录
-ignore:                            # Ignore files/folders
-
-# Extensions
-## Plugins: https://hexo.io/plugins/
-## Themes: https://hexo.io/themes/
-theme: matery                    # 当前主题名称。值为false时禁用主题</code></pre><script>
+:cmd4
+echo 1234
+GOTO MENU</code></pre><p>其中的地址根据实际博客文件夹位置修改，该文件的名字也可以自定义，但修改后，内容中的小写menu也要随之进行修改，否则不会跳回菜单。</p>
+<p>另外一个问题，本地启动后，关闭只能是Ctrl + c ，但这样操作会引起关闭批处理，只能是多加一步选 n ，暂时还没有彻底解决办法。</p>
+<script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
             if (!el.dataset.src) { return; }
@@ -609,7 +599,7 @@ theme: matery                    # 当前主题名称。值为false时禁用主�
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://wxl103010.github.io/2019/12/19/bo-ke-xi-jie-xiu-gai/">http://wxl103010.github.io/2019/12/19/bo-ke-xi-jie-xiu-gai/</a>
+                    <a href="http://wxl103010.github.io/da-jian-ge-ren-bo-ke.html">http://wxl103010.github.io/da-jian-ge-ren-bo-ke.html</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -646,10 +636,6 @@ theme: matery                    # 当前主题名称。值为false时禁用主�
                 <div class="post-meta__tag-list" style="display: inline-block;">
                     
                         <div class="article-tag">
-                            
-                                <a href="/tags/matery/">
-                                    <span class="chip bg-color">matery</span>
-                                </a>
                             
                                 <a href="/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/">
                                     <span class="chip bg-color">博客搭建</span>
@@ -1089,24 +1075,24 @@ theme: matery                    # 当前主题名称。值为false时禁用主�
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2019/12/20/bo-ke-tian-jia-wen-zhang-ji-markdown/">
+                <a href="/wei-bo-ke-geng-huan-zhu-ti.html">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/13.jpg" class="responsive-img" alt="博客添加文章及Markdown">
+                        <img src="/medias/featureimages/19.jpg" class="responsive-img" alt="为博客更换主题">
                         
-                        <span class="card-title">博客添加文章及Markdown</span>
+                        <span class="card-title">为博客更换主题</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            博客基础已经做好了，应该写内容了。
+                            为刚刚搭建的博客更新主题
                         
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2019-12-20
+                            <i class="far fa-clock fa-fw icon-date"></i>2019-12-19
                         </span>
                         <span class="publish-author">
                             
@@ -1131,10 +1117,6 @@ theme: matery                    # 当前主题名称。值为false时禁用主�
                         <span class="chip bg-color">博客搭建</span>
                     </a>
                     
-                    <a href="/tags/hexo/">
-                        <span class="chip bg-color">hexo</span>
-                    </a>
-                    
                 </div>
                 
             </div>
@@ -1143,22 +1125,22 @@ theme: matery                    # 当前主题名称。值为false时禁用主�
         
         <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge right-badge text-color">
-                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+                本篇&nbsp;<i class="far fa-dot-circle"></i>
             </div>
             <div class="card">
-                <a href="/2019/12/19/wei-bo-ke-geng-huan-zhu-ti/">
+                <a href="/da-jian-ge-ren-bo-ke.html">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/19.jpg" class="responsive-img" alt="为博客更换主题">
+                        <img src="/medias/featureimages/13.jpg" class="responsive-img" alt="搭建个人博客">
                         
-                        <span class="card-title">为博客更换主题</span>
+                        <span class="card-title">搭建个人博客</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            为刚刚搭建的博客更新主题
+                            初始搭建博客
                         
                     </div>
                     <div class="publish-info">
@@ -1177,15 +1159,16 @@ theme: matery                    # 当前主题名称。值为false时禁用主�
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/matery/">
-                        <span class="chip bg-color">matery</span>
-                    </a>
-                    
                     <a href="/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/">
                         <span class="chip bg-color">博客搭建</span>
+                    </a>
+                    
+                    <a href="/tags/hexo/">
+                        <span class="chip bg-color">hexo</span>
                     </a>
                     
                 </div>

@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://wxl103010.github.io/"/>
-  <updated>2019-12-20T12:28:57.902Z</updated>
+  <updated>2019-12-21T02:02:06.444Z</updated>
   <id>http://wxl103010.github.io/</id>
   
   <author>
@@ -18,10 +18,10 @@
   
   <entry>
     <title>博客添加文章及Markdown</title>
-    <link href="http://wxl103010.github.io/2019/12/20/bo-ke-tian-jia-wen-zhang-ji-markdown/"/>
-    <id>http://wxl103010.github.io/2019/12/20/bo-ke-tian-jia-wen-zhang-ji-markdown/</id>
+    <link href="http://wxl103010.github.io/bo-ke-tian-jia-wen-zhang-ji-markdown.html"/>
+    <id>http://wxl103010.github.io/bo-ke-tian-jia-wen-zhang-ji-markdown.html</id>
     <published>2019-12-20T11:01:13.000Z</published>
-    <updated>2019-12-20T12:28:57.902Z</updated>
+    <updated>2019-12-21T02:02:06.444Z</updated>
     
     <summary type="html">
     
@@ -49,10 +49,10 @@
   
   <entry>
     <title>博客细节修改</title>
-    <link href="http://wxl103010.github.io/2019/12/19/bo-ke-xi-jie-xiu-gai/"/>
-    <id>http://wxl103010.github.io/2019/12/19/bo-ke-xi-jie-xiu-gai/</id>
+    <link href="http://wxl103010.github.io/bo-ke-xi-jie-xiu-gai.html"/>
+    <id>http://wxl103010.github.io/bo-ke-xi-jie-xiu-gai.html</id>
     <published>2019-12-19T15:51:05.000Z</published>
-    <updated>2019-12-20T12:36:45.887Z</updated>
+    <updated>2019-12-21T02:45:23.148Z</updated>
     
     <summary type="html">
     
@@ -81,8 +81,8 @@
   
   <entry>
     <title>为博客更换主题</title>
-    <link href="http://wxl103010.github.io/2019/12/19/wei-bo-ke-geng-huan-zhu-ti/"/>
-    <id>http://wxl103010.github.io/2019/12/19/wei-bo-ke-geng-huan-zhu-ti/</id>
+    <link href="http://wxl103010.github.io/wei-bo-ke-geng-huan-zhu-ti.html"/>
+    <id>http://wxl103010.github.io/wei-bo-ke-geng-huan-zhu-ti.html</id>
     <published>2019-12-19T11:46:20.000Z</published>
     <updated>2019-12-20T03:36:39.920Z</updated>
     
@@ -110,8 +110,8 @@
   
   <entry>
     <title>搭建个人博客</title>
-    <link href="http://wxl103010.github.io/2019/12/19/da-jian-ge-ren-bo-ke/"/>
-    <id>http://wxl103010.github.io/2019/12/19/da-jian-ge-ren-bo-ke/</id>
+    <link href="http://wxl103010.github.io/da-jian-ge-ren-bo-ke.html"/>
+    <id>http://wxl103010.github.io/da-jian-ge-ren-bo-ke.html</id>
     <published>2019-12-18T19:19:12.000Z</published>
     <updated>2019-12-20T14:35:11.663Z</updated>
     

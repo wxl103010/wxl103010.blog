@@ -407,16 +407,16 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/hexo/">
-                                <span class="chip bg-color">hexo</span>
-                            </a>
-                        
                             <a href="/tags/matery/">
                                 <span class="chip bg-color">matery</span>
                             </a>
                         
                             <a href="/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/">
                                 <span class="chip bg-color">博客搭建</span>
+                            </a>
+                        
+                            <a href="/tags/hexo/">
+                                <span class="chip bg-color">hexo</span>
                             </a>
                         
                     </div>
@@ -611,7 +611,23 @@ Disallow: /vendors/
 Disallow: /fancybox/
 
 Sitemap: https://wxl103010.github.io/sitemap.xml
-Sitemap: https://wxl103010.github.io/baidusitemap.xml</code></pre><script>
+Sitemap: https://wxl103010.github.io/baidusitemap.xml</code></pre><h3 id="开启推送"><a href="#开启推送" class="headerlink" title="开启推送"></a>开启推送</h3><p>将网站链接提交到百度，<a href="http://www.sousuoyinqingtijiao.com/baidu/tijiao/" target="_blank" rel="noopener">百度搜索引擎提交入口 </a>,然后验证你的网站，这一点网上有很详细的教程我就不复述了，验证确认你的网站后，继续验证你的网站的robots.txt和sitemap文件是否可用，一般都是可用的。</p>
+<p>然后就可以开始推送了，基本上推送有三种方式：主动推送&gt;自动推送&gt;sitemap三种，一般主动提交比手动提交效果好。</p>
+<p><strong>自动推送</strong></p>
+<p>1）把下面的代码放到\themes\next\source\js\src目录下，文件名为bai.js</p>
+<pre><code>&lt;script&gt;
+(function(){
+    var bp = document.createElement('script');
+    bp.src = '//push.zhanzhang.baidu.com/push.js';
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+&lt;/script&gt;</code></pre><p>2）然后在\scaffolds目录下的post.md文件（模板文件中加入这么一行）</p>
+<pre><code>&lt;script type="text/javascript" src="/js/src/bai.js"&gt;&lt;/script&gt;</code></pre><p>这样只要访问你的这个页面，就会自动向百度推送你的这个网页。</p>
+<p><strong>注意</strong></p>
+<p>以上部分是直接抄的网络信息，所以第一步中的位置自己看着改就好了，第二步代码中的路径，根据第一步的位置来修改。</p>
+<p>管用不管用不清楚，先加上。</p>
+<script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
             if (!el.dataset.src) { return; }
@@ -692,16 +708,16 @@ Sitemap: https://wxl103010.github.io/baidusitemap.xml</code></pre><script>
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/hexo/">
-                                    <span class="chip bg-color">hexo</span>
-                                </a>
-                            
                                 <a href="/tags/matery/">
                                     <span class="chip bg-color">matery</span>
                                 </a>
                             
                                 <a href="/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/">
                                     <span class="chip bg-color">博客搭建</span>
+                                </a>
+                            
+                                <a href="/tags/hexo/">
+                                    <span class="chip bg-color">hexo</span>
                                 </a>
                             
                         </div>
@@ -1168,16 +1184,16 @@ Sitemap: https://wxl103010.github.io/baidusitemap.xml</code></pre><script>
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/hexo/">
-                        <span class="chip bg-color">hexo</span>
-                    </a>
-                    
                     <a href="/tags/matery/">
                         <span class="chip bg-color">matery</span>
                     </a>
                     
                     <a href="/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/">
                         <span class="chip bg-color">博客搭建</span>
+                    </a>
+                    
+                    <a href="/tags/hexo/">
+                        <span class="chip bg-color">hexo</span>
                     </a>
                     
                 </div>

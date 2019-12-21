@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://wxl103010.github.io/"/>
-  <updated>2019-12-21T03:42:34.108Z</updated>
+  <updated>2019-12-21T13:20:40.605Z</updated>
   <id>http://wxl103010.github.io/</id>
   
   <author>
@@ -17,11 +17,34 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>博客添加音乐页面</title>
+    <link href="http://wxl103010.github.io/bo-ke-tian-jia-yin-le-ye-mian.html"/>
+    <id>http://wxl103010.github.io/bo-ke-tian-jia-yin-le-ye-mian.html</id>
+    <published>2019-12-21T12:33:28.000Z</published>
+    <updated>2019-12-21T13:20:40.605Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;说明&quot;&gt;&lt;a href=&quot;#说明&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>博客添加文章及Markdown</title>
     <link href="http://wxl103010.github.io/bo-ke-tian-jia-wen-zhang-ji-markdown.html"/>
     <id>http://wxl103010.github.io/bo-ke-tian-jia-wen-zhang-ji-markdown.html</id>
     <published>2019-12-20T11:01:13.000Z</published>
-    <updated>2019-12-21T03:42:34.108Z</updated>
+    <updated>2019-12-21T12:47:46.436Z</updated>
     
     <summary type="html">
     
@@ -39,11 +62,11 @@
       <category term="博客搭建" scheme="http://wxl103010.github.io/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
     
     
+      <category term="hexo" scheme="http://wxl103010.github.io/tags/hexo/"/>
+    
       <category term="matery" scheme="http://wxl103010.github.io/tags/matery/"/>
     
       <category term="博客搭建" scheme="http://wxl103010.github.io/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
-    
-      <category term="hexo" scheme="http://wxl103010.github.io/tags/hexo/"/>
     
   </entry>
   
@@ -71,11 +94,11 @@
       <category term="博客搭建" scheme="http://wxl103010.github.io/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
     
     
+      <category term="hexo" scheme="http://wxl103010.github.io/tags/hexo/"/>
+    
       <category term="matery" scheme="http://wxl103010.github.io/tags/matery/"/>
     
       <category term="博客搭建" scheme="http://wxl103010.github.io/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
-    
-      <category term="hexo" scheme="http://wxl103010.github.io/tags/hexo/"/>
     
   </entry>
   
@@ -84,7 +107,7 @@
     <link href="http://wxl103010.github.io/wei-bo-ke-geng-huan-zhu-ti.html"/>
     <id>http://wxl103010.github.io/wei-bo-ke-geng-huan-zhu-ti.html</id>
     <published>2019-12-19T11:46:20.000Z</published>
-    <updated>2019-12-21T03:42:29.496Z</updated>
+    <updated>2019-12-21T12:48:01.617Z</updated>
     
     <summary type="html">
     
@@ -131,9 +154,9 @@
       <category term="博客搭建" scheme="http://wxl103010.github.io/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
     
     
-      <category term="博客搭建" scheme="http://wxl103010.github.io/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
-    
       <category term="hexo" scheme="http://wxl103010.github.io/tags/hexo/"/>
+    
+      <category term="博客搭建" scheme="http://wxl103010.github.io/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
     
   </entry>
   

@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://wxl103010.github.io/"/>
-  <updated>2019-12-21T13:20:40.605Z</updated>
+  <updated>2019-12-21T14:45:30.988Z</updated>
   <id>http://wxl103010.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://wxl103010.github.io/bo-ke-tian-jia-yin-le-ye-mian.html"/>
     <id>http://wxl103010.github.io/bo-ke-tian-jia-yin-le-ye-mian.html</id>
     <published>2019-12-21T12:33:28.000Z</published>
-    <updated>2019-12-21T13:20:40.605Z</updated>
+    <updated>2019-12-21T14:45:30.988Z</updated>
     
     <summary type="html">
     
@@ -36,6 +36,12 @@
     </summary>
     
     
+      <category term="博客搭建" scheme="http://wxl103010.github.io/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
+    
+    
+      <category term="博客添加音乐页面" scheme="http://wxl103010.github.io/tags/%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E9%9F%B3%E4%B9%90%E9%A1%B5%E9%9D%A2/"/>
+    
+      <category term="wxl103010" scheme="http://wxl103010.github.io/tags/wxl103010/"/>
     
   </entry>
   
@@ -62,11 +68,11 @@
       <category term="博客搭建" scheme="http://wxl103010.github.io/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
     
     
-      <category term="hexo" scheme="http://wxl103010.github.io/tags/hexo/"/>
-    
       <category term="matery" scheme="http://wxl103010.github.io/tags/matery/"/>
     
       <category term="博客搭建" scheme="http://wxl103010.github.io/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
+    
+      <category term="hexo" scheme="http://wxl103010.github.io/tags/hexo/"/>
     
   </entry>
   
@@ -94,11 +100,11 @@
       <category term="博客搭建" scheme="http://wxl103010.github.io/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
     
     
-      <category term="hexo" scheme="http://wxl103010.github.io/tags/hexo/"/>
-    
       <category term="matery" scheme="http://wxl103010.github.io/tags/matery/"/>
     
       <category term="博客搭建" scheme="http://wxl103010.github.io/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
+    
+      <category term="hexo" scheme="http://wxl103010.github.io/tags/hexo/"/>
     
   </entry>
   
@@ -154,9 +160,9 @@
       <category term="博客搭建" scheme="http://wxl103010.github.io/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
     
     
-      <category term="hexo" scheme="http://wxl103010.github.io/tags/hexo/"/>
-    
       <category term="博客搭建" scheme="http://wxl103010.github.io/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
+    
+      <category term="hexo" scheme="http://wxl103010.github.io/tags/hexo/"/>
     
   </entry>
   

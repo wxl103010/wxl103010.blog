@@ -4,8 +4,8 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="博客细节修改">
-    <meta name="description" content="对博客进行细微调整">
+    <meta name="keywords" content="博客优化">
+    <meta name="description" content="对博客进行优化">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -13,7 +13,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>博客细节修改 | Collection</title>
+    <title>博客优化 | Collection</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -263,12 +263,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/1.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/22.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">博客细节修改</h1>
+                    <h1 class="description center-align post-title">博客优化</h1>
                 </div>
             </div>
         </div>
@@ -385,16 +385,16 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/matery/">
-                                <span class="chip bg-color">matery</span>
+                            <a href="/tags/hexo/">
+                                <span class="chip bg-color">hexo</span>
                             </a>
                         
                             <a href="/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/">
                                 <span class="chip bg-color">博客搭建</span>
                             </a>
                         
-                            <a href="/tags/hexo/">
-                                <span class="chip bg-color">hexo</span>
+                            <a href="/tags/matery/">
+                                <span class="chip bg-color">matery</span>
                             </a>
                         
                     </div>
@@ -566,7 +566,7 @@ baidusitemap:
   path: baidusitemap.xml</code></pre><p>3）修改博客主题配置文件_config.yml，将以下信息添加进去</p>
 <pre><code># URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://你的网站</code></pre><p>4）修改sitemap.xml和baidusitemap.xml文件</p>
+url: http://你的网站</code></pre><p>4）修改sitemap.xml和baidusitemap.ejs文件</p>
 <p>将<code>node_modubles\hexo-generator-baidu-sitemap\baidusitemap.ejs</code>和<code>node_modules\hexo-generator-sitemap\sitemap.xml</code>文件中的第二行地址换成自己的地址。</p>
 <p>5）在百度搜索site:<a href="http://www.yangyuanlin.club，出现的界面中选择“提交网站”，然后将自己的网站地址添加上去，点提交。" target="_blank" rel="noopener">www.yangyuanlin.club，出现的界面中选择“提交网站”，然后将自己的网站地址添加上去，点提交。</a></p>
 <p>至此，每次生成后，都会在/public目录中生成sitemap.xml和baidusitemap.xml，这就是你的站点地图。</p>
@@ -612,9 +612,18 @@ Sitemap: https://wxl103010.github.io/baidusitemap.xml</code></pre><h3 id="开启
 <p>管用不管用不清楚，先加上。</p>
 <h2 id="百度收录"><a href="#百度收录" class="headerlink" title="百度收录"></a>百度收录</h2><p>1）打开链接<a href="https://ziyuan.baidu.com/site/siteadd。" target="_blank" rel="noopener">https://ziyuan.baidu.com/site/siteadd。</a></p>
 <p>2）按提示书写内容，下一步</p>
-<p>3）验证时采用文件验证。</p>
-<p>也即把下载的验证文件放在主题文件的source文件夹中，因为一般文章均会被渲染，放到这个位置就不受影响了。</p>
-<p>4）上传github后，先进行验证，验证出现的界面中，只有一条验证码，这时点击“完成验证”就好了。</p>
+<p>3）验证时采用“文件验证”，先将验证文件下载，然后把文件放到博客主题目录里的source中。</p>
+<p>4）上传后，点击“点击这里验证文件可以正常访问”，打开出现一个界面，只有一串验证码时，便是正常。</p>
+<p>5）点击“完成验证”。</p>
+<p>6）安装sitemap插件，之前的内容中有介绍，可按上方中的方法先进行安装，然后将博客配置文件中的url修改为登录时的域名，也就是网址。</p>
+<p>7）重新生成上传数据，然后在“搜索资源平台”，也就是刚才一直提交的平台中，点击左侧的“链接提交”。</p>
+<p>8）上方输入自己的地址，然后选择链接提交方式，这里选择“主动推送”——“sitemap”，然后在文本框中写如下地址：</p>
+<pre><code>http://wxl103010.coding.me/baidusitemap.xml
+http://wxl103010.coding.me/sitemap.xml</code></pre><p>根据自己的情况来修改上面的地址。</p>
+<p>9）最后点击“提交”，页面刷新后，下方会出现刚刚添加的项目，多刷新几次，看到状态都是“正常”后，便是添加成功。</p>
+<br>
+
+<p>过一段时间后，百度搜索：site:wxl103010.coding.me</p>
 <script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
@@ -658,7 +667,7 @@ Sitemap: https://wxl103010.github.io/baidusitemap.xml</code></pre><h3 id="开启
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://wxl103010.coding.me/00-04-bo-ke-xi-jie-xiu-gai.html">http://wxl103010.coding.me/00-04-bo-ke-xi-jie-xiu-gai.html</a>
+                    <a href="http://wxl103010.coding.me/00-04-bo-ke-you-hua.html">http://wxl103010.coding.me/00-04-bo-ke-you-hua.html</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -696,16 +705,16 @@ Sitemap: https://wxl103010.github.io/baidusitemap.xml</code></pre><h3 id="开启
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/matery/">
-                                    <span class="chip bg-color">matery</span>
+                                <a href="/tags/hexo/">
+                                    <span class="chip bg-color">hexo</span>
                                 </a>
                             
                                 <a href="/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/">
                                     <span class="chip bg-color">博客搭建</span>
                                 </a>
                             
-                                <a href="/tags/hexo/">
-                                    <span class="chip bg-color">hexo</span>
+                                <a href="/tags/matery/">
+                                    <span class="chip bg-color">matery</span>
                                 </a>
                             
                         </div>
@@ -1172,16 +1181,16 @@ Sitemap: https://wxl103010.github.io/baidusitemap.xml</code></pre><h3 id="开启
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/matery/">
-                        <span class="chip bg-color">matery</span>
+                    <a href="/tags/hexo/">
+                        <span class="chip bg-color">hexo</span>
                     </a>
                     
                     <a href="/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/">
                         <span class="chip bg-color">博客搭建</span>
                     </a>
                     
-                    <a href="/tags/hexo/">
-                        <span class="chip bg-color">hexo</span>
+                    <a href="/tags/matery/">
+                        <span class="chip bg-color">matery</span>
                     </a>
                     
                 </div>
@@ -1229,12 +1238,12 @@ Sitemap: https://wxl103010.github.io/baidusitemap.xml</code></pre><h3 id="开启
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/matery/">
-                        <span class="chip bg-color">matery</span>
-                    </a>
-                    
                     <a href="/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/">
                         <span class="chip bg-color">博客搭建</span>
+                    </a>
+                    
+                    <a href="/tags/matery/">
+                        <span class="chip bg-color">matery</span>
                     </a>
                     
                 </div>

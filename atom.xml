@@ -289,11 +289,11 @@
       <category term="博客搭建" scheme="http://wxl103010.github.io/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
     
     
-      <category term="hexo" scheme="http://wxl103010.github.io/tags/hexo/"/>
+      <category term="matery" scheme="http://wxl103010.github.io/tags/matery/"/>
     
       <category term="博客搭建" scheme="http://wxl103010.github.io/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
     
-      <category term="matery" scheme="http://wxl103010.github.io/tags/matery/"/>
+      <category term="hexo" scheme="http://wxl103010.github.io/tags/hexo/"/>
     
   </entry>
   
@@ -321,11 +321,11 @@
       <category term="博客搭建" scheme="http://wxl103010.github.io/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
     
     
-      <category term="hexo" scheme="http://wxl103010.github.io/tags/hexo/"/>
+      <category term="matery" scheme="http://wxl103010.github.io/tags/matery/"/>
     
       <category term="博客搭建" scheme="http://wxl103010.github.io/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
     
-      <category term="matery" scheme="http://wxl103010.github.io/tags/matery/"/>
+      <category term="hexo" scheme="http://wxl103010.github.io/tags/hexo/"/>
     
   </entry>
   
@@ -352,9 +352,9 @@
       <category term="博客搭建" scheme="http://wxl103010.github.io/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
     
     
-      <category term="博客搭建" scheme="http://wxl103010.github.io/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
-    
       <category term="matery" scheme="http://wxl103010.github.io/tags/matery/"/>
+    
+      <category term="博客搭建" scheme="http://wxl103010.github.io/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
     
   </entry>
   
@@ -381,9 +381,9 @@
       <category term="博客搭建" scheme="http://wxl103010.github.io/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
     
     
-      <category term="hexo" scheme="http://wxl103010.github.io/tags/hexo/"/>
-    
       <category term="博客搭建" scheme="http://wxl103010.github.io/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
+    
+      <category term="hexo" scheme="http://wxl103010.github.io/tags/hexo/"/>
     
   </entry>
   

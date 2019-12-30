@@ -558,6 +558,10 @@ url: http://你的网站</code></pre><p>4）修改sitemap.xml和baidusitemap.ejs
 <p>3）验证时采用“文件验证”，先将验证文件下载，然后把文件放到博客主题目录里的source中。</p>
 <p>4）上传后，点击“点击这里验证文件可以正常访问”，打开出现一个界面，只有一串验证码时，便是正常。</p>
 <p>5）点击“完成验证”。</p>
+<p><strong>安装sitemap</strong></p>
+<p>运行以下命令，一个是通用的，另一个是百度专用的。</p>
+<pre><code>npm install hexo-generator-sitemap --save
+npm install hexo-generator-baidu-sitemap --save</code></pre><p>将博客配置文件中的url，一定要修改成网络访问的域名，这两个插件会根据usrl来生成站点地图。</p>
 <p><strong>sitemap推送</strong></p>
 <p>1）安装sitemap插件，之前的内容中有介绍，可按上方中的方法先进行安装，然后将博客配置文件中的url修改为登录时的域名，也就是网址。</p>
 <p>2）重新生成上传数据，然后在“搜索资源平台”，也就是刚才一直提交的平台中，点击左侧的“链接提交”。</p>
@@ -614,22 +618,6 @@ Sitemap: https://wxl103010.github.io/baidusitemap.xml</code></pre><h3 id="优化
 root: /
 permalink: :title.html
 permalink_defaults:</code></pre><p>好吧，上面是我照抄的，不过确实修改以后，重新生成的链接地址短了几级，不过现在目录地址是文章名字的拼音，中间以-相隔开，所以名字最后短些吧。</p>
-<h3 id="开启推送"><a href="#开启推送" class="headerlink" title="开启推送"></a>开启推送</h3><p>将网站链接提交到百度，<a href="http://www.sousuoyinqingtijiao.com/baidu/tijiao/" target="_blank" rel="noopener">百度搜索引擎提交入口 </a>,然后验证你的网站，这一点网上有很详细的教程我就不复述了，验证确认你的网站后，继续验证你的网站的robots.txt和sitemap文件是否可用，一般都是可用的。</p>
-<p>然后就可以开始推送了，基本上推送有三种方式：主动推送&gt;自动推送&gt;sitemap三种，一般主动提交比手动提交效果好。</p>
-<p><strong>自动推送</strong></p>
-<p>1）把下面的代码放到\themes\next\source\js\src目录下，文件名为bai.js</p>
-<pre><code>&lt;script&gt;
-(function(){
-    var bp = document.createElement('script');
-    bp.src = '//push.zhanzhang.baidu.com/push.js';
-    var s = document.getElementsByTagName("script")[0];
-    s.parentNode.insertBefore(bp, s);
-})();
-&lt;/script&gt;</code></pre><p>2）然后在\scaffolds目录下的post.md文件（模板文件中加入这么一行）</p>
-<pre><code>&lt;script type="text/javascript" src="/js/src/bai.js"&gt;&lt;/script&gt;</code></pre><p>这样只要访问你的这个页面，就会自动向百度推送你的这个网页。</p>
-<p><strong>注意</strong></p>
-<p>以上部分是直接抄的网络信息，所以第一步中的位置自己看着改就好了，第二步代码中的路径，根据第一步的位置来修改。</p>
-<p>管用不管用不清楚，先加上。</p>
 <h3 id="代码压缩"><a href="#代码压缩" class="headerlink" title="代码压缩"></a>代码压缩</h3><h4 id="gulp代码压缩"><a href="#gulp代码压缩" class="headerlink" title="gulp代码压缩"></a>gulp代码压缩</h4><p>以下先进行记录，暂时本人没有测试，测试会将该段文字或该章进行删除。 </p>
 <p>1）进入博客根目录命令行，键入下列命令：</p>
 <pre><code># 全局安装gulp模块

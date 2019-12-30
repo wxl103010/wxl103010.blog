@@ -4,11 +4,8 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="那些电影那些人：中国好导演（内地篇）">
-    <meta name="description" content=" 说明文章摘自《有意思吧》，现已无法打开页面。文章是之前保存的内容，经过编辑后放出。
-原文章发布时间：2013-10-15 00:30:14
-那些电影那些人：中国好导演（内地篇）
-姜文：**姜文是中国电影界乃至整个文化界最大的异数，他的能力">
+    <meta name="keywords" content="博客添加相册页面">
+    <meta name="description" content="为博客创建一个单独的页面，来存放图片。">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -16,7 +13,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>那些电影那些人：中国好导演（内地篇） | Collection</title>
+    <title>博客添加相册页面 | Collection</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -244,12 +241,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/img/01-04-01.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/6.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">那些电影那些人：中国好导演（内地篇）</h1>
+                    <h1 class="description center-align post-title">博客添加相册页面</h1>
                 </div>
             </div>
         </div>
@@ -259,10 +256,105 @@
 
 
 
-<main class="container content">
+<main class="post-container content">
 
     
-    <!-- 文章内容详情 -->
+    <link rel="stylesheet" href="/libs/tocbot/tocbot.css">
+<style>
+    #articleContent h1::before,
+    #articleContent h2::before,
+    #articleContent h3::before,
+    #articleContent h4::before,
+    #articleContent h5::before,
+    #articleContent h6::before {
+        display: block;
+        content: " ";
+        height: 100px;
+        margin-top: -100px;
+        visibility: hidden;
+    }
+
+    #articleContent :focus {
+        outline: none;
+    }
+
+    .toc-fixed {
+        position: fixed;
+        top: 64px;
+    }
+
+    .toc-widget {
+        width: 345px;
+        padding-left: 20px;
+    }
+
+    .toc-widget .toc-title {
+        margin: 35px 0 15px 0;
+        padding-left: 17px;
+        font-size: 1.5rem;
+        font-weight: bold;
+        line-height: 1.5rem;
+    }
+
+    .toc-widget ol {
+        padding: 0;
+        list-style: none;
+    }
+
+    #toc-content {
+        height: calc(100vh - 250px);
+        overflow: auto;
+    }
+
+    #toc-content ol {
+        padding-left: 10px;
+    }
+
+    #toc-content ol li {
+        padding-left: 10px;
+    }
+
+    #toc-content .toc-link:hover {
+        color: #42b983;
+        font-weight: 700;
+        text-decoration: underline;
+    }
+
+    #toc-content .toc-link::before {
+        background-color: transparent;
+        max-height: 25px;
+    }
+
+    #toc-content .is-active-link {
+        color: #42b983;
+    }
+
+    #toc-content .is-active-link::before {
+        background-color: #42b983;
+    }
+
+    #floating-toc-btn {
+        position: fixed;
+        right: 15px;
+        bottom: 76px;
+        padding-top: 15px;
+        margin-bottom: 0;
+        z-index: 998;
+    }
+
+    #floating-toc-btn .btn-floating {
+        width: 48px;
+        height: 48px;
+    }
+
+    #floating-toc-btn .btn-floating i {
+        line-height: 48px;
+        font-size: 1.4rem;
+    }
+</style>
+<div class="row">
+    <div id="main-content" class="col s12 m12 l9">
+        <!-- 文章内容详情 -->
 <div id="artDetail">
     <div class="card">
         <div class="card-content article-info">
@@ -271,12 +363,16 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/%E6%9C%89%E6%84%8F%E6%80%9D%E5%90%A7/">
-                                <span class="chip bg-color">有意思吧</span>
+                            <a href="/tags/hexo/">
+                                <span class="chip bg-color">hexo</span>
                             </a>
                         
-                            <a href="/tags/%E5%9B%BE%E7%89%87/">
-                                <span class="chip bg-color">图片</span>
+                            <a href="/tags/matery/">
+                                <span class="chip bg-color">matery</span>
+                            </a>
+                        
+                            <a href="/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/">
+                                <span class="chip bg-color">博客搭建</span>
                             </a>
                         
                     </div>
@@ -287,8 +383,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/%E6%9C%89%E6%84%8F%E6%80%9D%E5%90%A7/" class="post-category">
-                                有意思吧
+                            <a href="/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/" class="post-category">
+                                博客搭建
                             </a>
                         
                     </div>
@@ -300,7 +396,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2019-12-24
+                    2019-12-21
                 </div>
                 
 
@@ -322,48 +418,237 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <script src="/assets/js/APlayer.min.js"> </script><h5 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h5><p>文章摘自《有意思吧》，现已无法打开页面。文章是之前保存的内容，经过编辑后放出。</p>
-<p>原文章发布时间：2013-10-15 00:30:14</p>
-<h2 id="那些电影那些人：中国好导演（内地篇）"><a href="#那些电影那些人：中国好导演（内地篇）" class="headerlink" title="那些电影那些人：中国好导演（内地篇）"></a><center>那些电影那些人：中国好导演（内地篇）</center></h2><p><img src="https://wxl103010.github.io/img/01-04-01.jpg" alt=""></p>
-<p>姜文：**姜文是中国电影界乃至整个文化界最大的异数，他的能力与才华是无须注释的一道标准。代表作：《阳光灿烂的日子》《鬼子来了》《太阳照常升起》《让子弹飞》</p>
-<p><img src="https://wxl103010.github.io/img/01-04-02.jpg" alt=""></p>
-<p><strong>张艺谋：</strong>摄影师出身的张艺谋独自执导的第一部影片《红高粱》，一举为自己奠定了中国第五代导演旗帜人物的地位。张艺谋也是全世界最聪明的导演之一。代表作：《红高粱》《秋菊打官司》《活着》《一个都不能少》《我的父亲母亲》《英雄》《满城尽带黄金甲》《山楂树之恋》</p>
-<p><img src="https://wxl103010.github.io/img/01-04-03.jpg" alt=""></p>
-<p><strong>冯小刚：</strong>作品风格以北方京味儿喜剧著称，擅长商业片，是中国最具有电影票房号召力的导演之一。他始终把目光投向喧闹的现代都市生活和市井平民的精神状态。正如他自己所说：“我就是一个市民导演”。代表作：《甲方乙方》《集结号》《大腕》《非诚勿扰》《唐山大地震》《一九四二》</p>
-<p><img src="https://wxl103010.github.io/img/01-04-04.jpg" alt=""></p>
-<p><strong>陈凯歌：</strong>至今仍为唯一获得戛纳国际电影节金棕榈奖的华人导演。《霸王别姬》是陈凯歌电影事业的巅峰之作，是他最灿烂的一次歌唱，看罢全剧，你会禁不住长叹“人生如戏，戏如人生”。代表作：《霸王别姬  》《梅兰芳 》《赵氏孤儿》《无极》《黄土地》</p>
-<p><img src="https://wxl103010.github.io/img/01-04-05.jpg" alt=""></p>
-<p><strong>张纪中：</strong>中国著名电视剧制片人，曾任中央电视台中国电视剧制作中心高级经济师。代表作：《三国演义》《水浒传》《笑傲江湖》《激情燃烧的岁月》《射雕英雄传》《青衣》《天龙八部》《神雕侠侣》《吕梁英雄传》《鹿鼎记》《碧血剑》《倚天屠龙记》</p>
-<p><img src="https://wxl103010.github.io/img/01-04-06.jpg" alt=""></p>
-<p><strong>韩三平：</strong>中国著名导演，中国电影集团董事长，北京大学文化产业研究院特约研究员。代表作品有《云水谣》《荆轲刺秦王》《毛泽东的故事》《不见不散》《孔繁森》《汉武大帝》《传奇皇帝朱元璋》《江山风雨情》《建国大业》《建党伟业》《新红楼梦》等。（编者：呵呵）</p>
-<p><img src="https://wxl103010.github.io/img/01-04-07.jpg" alt=""></p>
-<p><strong>田壮壮：</strong>中国第五代导演的代表人物之一，曾执导过《我们的角落》《盗马贼》《蓝风筝》《小城之春》《德拉姆》《吴清源》等影片。</p>
-<p><img src="https://wxl103010.github.io/img/01-04-08.jpg" alt=""></p>
-<p><strong>陆川：</strong>陆川是中国新生代导演中的佼佼者，也是中国第六代导演代表人物之一。主要作品《寻枪》《可可西里》《南京！南京！》《王的盛宴》等。</p>
-<p><img src="https://wxl103010.github.io/img/01-04-09.jpg" alt=""></p>
-<p><strong>贾樟柯：</strong>他说：我想用电影去关心普通人，首先要尊重世俗生活。在缓慢的时光流程中，感觉每个平淡的生命的喜悦或沉重。代表作：《小武》《站台》《任逍遥》《世界》《东》《三峡好人》《无用》《二十四城记》《海上传奇》《天注定》 </p>
-<p><img src="https://wxl103010.github.io/img/01-04-10.jpg" alt=""></p>
-<p><strong>张一白：</strong>张一白被媒体称为第六代导演。代表作：《好奇害死猫》《将爱情进行到底》《开往春天的地铁》《少年》《恋爱地图》《夜·上海》</p>
-<p><img src="https://wxl103010.github.io/img/01-04-11.jpg" alt=""></p>
-<p><strong>管虎：</strong>管虎被称为第六代电影导演中的怪才，早年推出《头发乱了》《上车，走吧》等电影。近些年，管虎转战电视圈，推出了极具影响的电视剧《黑洞》《冬至》《七日》《生存之民工》。其作品犀利、生动，具有强烈的人文关怀精神。</p>
-<p><img src="https://wxl103010.github.io/img/01-04-12.jpg" alt=""></p>
-<p><strong>王小帅：</strong>王小帅凭借其独特、敏感的电影个性，从他自筹资金拍摄电影处女作《冬春的日子》到《梦幻田园》，短短十年间，王小帅开始形成自己独树一帜的电影风格。代表作：《十七岁的单车》《扁担·姑娘》《左右》《青红》</p>
-<p><img src="https://wxl103010.github.io/img/01-04-13.jpg" alt=""></p>
-<p><strong>谢晋：</strong>谢晋是为电影而生的，是电影的召唤，他才来到这个纷繁的人世间。代表作：《红色娘子军》《舞台姐妹》《天云山传奇》《牧马人》《高山下的花环》《芙蓉镇》</p>
-<p><img src="https://wxl103010.github.io/img/01-04-14.jpg" alt=""></p>
-<p><strong>顾长卫：</strong>从“中国第一摄影师”到一个成功的电影导演，顾长卫的态度一直是低调沉稳，令人肃然起敬。代表作：《狭路英豪》《兰陵王》《孔雀》《立春》《最爱》《龙头》</p>
-<p><img src="https://wxl103010.github.io/img/01-04-15.jpg" alt=""></p>
-<p><strong>高群书：</strong>国内一线导演，中国警匪剧领军人物，中国电视剧四大最卖座导演之一。代表作：《东京审判》《千钧一发》《风声》《西风烈》《神探亨特张》《一场风花雪月的事》</p>
-<p><img src="https://wxl103010.github.io/img/01-04-16.jpg" alt=""></p>
-<p><strong>赵宝刚：</strong> “中国言情剧第一导演”  ，代表作：《奋斗》《我的青春谁做主》《婚姻保卫战》《家的N次方》《北京青年》《男人帮》《老有所依》等。</p>
-<p><img src="https://wxl103010.github.io/img/01-04-17.jpg" alt=""></p>
-<p><strong>英达：</strong>娱乐圈多栖，导演、演员、主持人三位一体。代表作：《黄河谣》《我爱我家》《闲人马大姐》《东北一家人》</p>
-<p><img src="https://wxl103010.github.io/img/01-04-18.jpg" alt=""></p>
-<p><strong>宁浩：</strong>宁浩被称为新生代的“鬼才导演”。 代表作：《疯狂的石头》《疯狂的赛车》《香火》《绿草地》《无人区》《黄金大劫案》</p>
-<p><img src="https://wxl103010.github.io/img/01-04-19.jpg" alt=""></p>
-<p><strong>何群：</strong>外号“何八条”，就是说每场戏至少要拍上七八条才能过。  何群始终把目光放在娱乐与艺术的交叉点上，拍出的影片叫好又卖座。代表作：《大宅门》《凤凰琴》《混在北京》</p>
-<p>本文不是作总结，而是集思广益，群策群力，把你心目中的好导演也挖出来一起分享吧。</p>
-<script>
+                <script src="/assets/js/APlayer.min.js"> </script><h2 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h2><p>这次是添加单独的界面了，与之前的不一样，之前的界面是已经做好的，而现在所需要的页面就得根据自己的情况来创作了。根据网上同仁的资料，根据博客友情链接方式，以json管理做出界面，现整理以下做法。</p>
+<p>原文章：<a href="https://liyangzone.com/2019/07/22/hexo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E4%B8%80%E7%BA%A7%E5%88%86%E7%B1%BB%E7%9B%B8%E5%86%8C/#toc-heading-1" target="_blank" rel="noopener">https://liyangzone.com/2019/07/22/hexo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E4%B8%80%E7%BA%A7%E5%88%86%E7%B1%BB%E7%9B%B8%E5%86%8C/#toc-heading-1</a></p>
+<h2 id="添加相册界面"><a href="#添加相册界面" class="headerlink" title="添加相册界面"></a>添加相册界面</h2><h3 id="1、添加菜单"><a href="#1、添加菜单" class="headerlink" title="1、添加菜单"></a><strong>1、添加菜单</strong></h3><p>在博客配置文件_config.yml中添加以下信息。</p>
+<pre><code>  音乐:
+    url: /musics
+    icon: fas fa-music</code></pre><p>注意：如果写好后报站，将每一行前面空的部分删除，用空格填充。</p>
+<p>在博客主题中的 languages 文件夹下，将 default.yml 和 zh-CN.yml 文件，分别添加如下内容：</p>
+<pre><code>galleries: galleries</code></pre><pre><code>galleries: 相册</code></pre><p>在主题目录的 layout/_partial/navigation.ejs 和 layout/_partial/mobile-nav.ejs 文件中均添加：</p>
+<pre><code>menuMap.set("Galleries", "相册");</code></pre><h3 id="2、生成文件"><a href="#2、生成文件" class="headerlink" title="2、生成文件"></a><strong>2、生成文件</strong></h3><p>使用命令 <code>hexo new page galleries</code>生成相册页，打开刚生成的文件 /source/galleries/ 中的 index.md ，补全如下面的信息：</p>
+<pre><code>---
+title: categories
+date: 2019-12-19 01:53:52
+type: "categories"
+layout: "categories"
+---</code></pre><h3 id="3、添加页面模板及样式"><a href="#3、添加页面模板及样式" class="headerlink" title="3、添加页面模板及样式"></a><strong>3、添加页面模板及样式</strong></h3><p>在主题目录的 source/css 中创建文件 gallery.css ，添加以下内容。</p>
+<pre><code>.gallery-wrapper{
+  padding-top: 30px;
+}
+.gallery-wrapper .gallery-box{
+  padding: 5px !important;
+}
+
+.gallery-wrapper .gallery-item {
+  display: block;
+  overflow: hidden;
+  background-color: #fff;
+  padding: 5px;
+  padding-bottom: 0;
+  position: relative;
+  -moz-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.22);
+  -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.22);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.22);
+}
+
+.gallery-cover-box{
+  width: 100%;
+  padding-top: 60%;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  background: center center no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.gallery-cover-box .gallery-cover-img {
+  display: inline-block;
+  width: 100%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+.gallery-item .gallery-name{
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  color: #666;
+  margin: 0;
+}
+
+.waterfall {
+  column-count: 3;
+  column-gap: 1em;
+}
+.photo-wrapper{
+  padding-top: 20px;
+}
+.photo-item {
+  display: block;
+  padding: 10px;
+  padding-bottom: 0;
+  margin-bottom: 14px;
+  font-size: 0;
+  -moz-page-break-inside: avoid;
+  -webkit-column-break-inside: avoid;
+  break-inside: avoid;
+  background: white;
+  -moz-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.22);
+  -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.22);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.22);
+}
+.photo-item img {
+  width: 100%;
+}
+.photo-item .photo-name{
+  font-size: 14px;
+  line-height: 30px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-top: 1px solid #dddddd;
+}
+
+/*适配移动端布局*/
+@media only screen and (max-width: 601px) {
+  .waterfall {
+    column-count: 2;
+    column-gap: 1em;
+  }
+}</code></pre><p>在主题目录中的 layout 目录下创建 galleries.ejs 文件，添加以下代码。</p>
+<pre><code>&lt;link rel="stylesheet" href="/css/gallery.css"&gt;
+
+&lt;%- partial('_partial/bg-cover') %&gt;
+
+&lt;main class="content"&gt;
+    &lt;div class="container"&gt;
+        &lt;% if (site.data &amp;&amp; site.data.galleries) { %&gt;
+        &lt;% var galleries = site.data.galleries; %&gt;
+        &lt;div class="gallery-wrapper row"&gt;
+            &lt;% for (var i = 0, len = galleries.length; i &lt; len; i++) { %&gt;
+            &lt;% var gallery = galleries[i]; %&gt;
+            &lt;div class="col s6 m4 l4 xl3 gallery-box"&gt;
+                &lt;a href="./&lt;%- gallery.name %&gt;" class="gallery-item" data-aos="zoom-in-up"&gt;
+                    &lt;div class="gallery-cover-box" style="background-image: url(http://localhost/&lt;%- gallery.cover%&gt;);"&gt;
+                    &lt;/div&gt;
+                    &lt;p class="gallery-name"&gt;
+                        &lt;%- gallery.name %&gt;
+                    &lt;/p&gt;
+                &lt;/a&gt;
+            &lt;/div&gt;
+            &lt;% } %&gt;
+        &lt;/div&gt;
+        &lt;% } %&gt;
+    &lt;/div&gt;
+&lt;/main&gt;</code></pre><p>还是该目录下，继续新建文件 galler.ejs ，写如下代码。</p>
+<pre><code>&lt;link rel="stylesheet" href="/css/gallery.css"&gt;
+&lt;link type="text/css" href="/libs/fancybox/jquery.fancybox.css" rel="stylesheet"&gt;
+&lt;link type="text/css" href="/libs/justifiedGallery/justifiedGallery.min.css" rel="stylesheet"&gt;
+
+&lt;%- partial('_partial/post-cover') %&gt;
+&lt;%
+let galleries = [];
+if (site.data &amp;&amp; site.data.galleries) {
+    galleries = site.data.galleries;
+}
+var pageTitle = page.title;
+function getCurrentGallery(galleries, pageTitle) {
+    for (let i = 0; i &lt; galleries.length; i++) {
+        if (galleries[i]['name'] == pageTitle) {
+            return galleries[i];
+        }
+    }
+}
+var currentGallery = getCurrentGallery(galleries, pageTitle)
+
+var photos = currentGallery.photos;
+
+let imageStr = ''
+
+for (var i = 0, len = photos.length; i &lt; len; i++) {
+    var photo = photos[i];
+
+    imageStr += "&lt;a href=\"http://localhost" + photo + "\"" +
+            "     class=\"photo-item\" rel=\"example_group\"" +
+            "     data-fancybox=\"images\"&gt;" +
+            "      &lt;img src=\"http://localhost" + photo + "\"" +
+            "       alt=" + photo + "&gt;\n" +
+            "    &lt;/a&gt;"
+
+}
+%&gt;
+
+&lt;div class="container"&gt;
+    &lt;div class="photo-wrapper"&gt;
+        &lt;div class="waterfall" id="mygallery"&gt;
+            &lt;%- imageStr %&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;script src="/libs/fancybox/fancybox.js"&gt;&lt;/script&gt;
+&lt;script src="/libs/justifiedGallery/justifiedGallery.min.js"&gt;&lt;/script&gt;
+&lt;script&gt;
+
+  $("a[rel=example_group]").fancybox();
+  $("#mygallery").justifiedGallery({margins: 5, rowHeight: 150});
+
+&lt;/script&gt;</code></pre><p><strong>以上代码说明：</strong></p>
+<p>上述代码的功能是读取相册配置文件，并把相册目录和相册列表都渲染成HTML，用&lt;% %&gt;包起来的代码是ejs语法。</p>
+<p>上面代码里引用了两个<code>jquery插件</code>，分别是<code>fancybox</code>和<code>justifiedGallery</code>, 一个是点击弹出的轮播插件，一个是自动调整图片布局的插件，需要自行下载并放到相应目录，当然，你也可以用浏览器调试工具直接在我的博客上下载，在sources里找到对应的文件，另存为就行。</p>
+<p><strong>单独说明：</strong></p>
+<p>按上述方式，确实能添加相册页面，只是图片一直出不来，所以我个人将上面的图片链接代码稍作调整，路径改为localhost，也就是网址本身的地址，如果图片在博客目录下而非第三方，这样是可以的，如果是在第三方，那就需要根据第三方的链接而进行调整。</p>
+<p>别急！下面还有些操作，操作完毕后，便可看到全部效果。</p>
+<h3 id="4、制作相册配置文件"><a href="#4、制作相册配置文件" class="headerlink" title="4、制作相册配置文件"></a><strong>4、制作相册配置文件</strong></h3><p>在博客目录的 sources/_data/目录中新建一个文件 galleries.json ，如果没有目录，则也一并进行新建。文件内容如下：</p>
+<pre><code>[
+  {
+    "name": "2017",
+    "cover": "2017/IMG_20171109_124516.jpg",
+    "description": "2017年记录",
+    "photos": [
+      "2017/IMG_20170924_110224.jpg",
+      "2017/IMG_20170924_113412.jpg",
+      "2017/IMG_20171109_124516.jpg",
+      "2017/IMG_20171125_125304.jpg",
+      "2017/IMG_20171126_181605.jpg"
+    ]
+  },
+  {
+    "name": "2018",
+    "cover": "2018/IMG_20181124_125818.jpg",
+    "description": "2018年记录",
+    "photos": [
+      "2018/IMG_20180204_113055.jpg",
+      "2018/IMG_20180204_113302.jpg",
+      "2018/IMG_20180204_113442.jpg",
+      "2018/IMG_20180208_083336.jpg"
+    ]
+  },
+  {
+    "name": "2019",
+    "cover": "2019/IMG_20190331_165713_1.jpg",
+    "description": "2019年记录",
+    "photos": [
+      "2019/IMG_20190118_200104.jpg",
+      "2019/IMG_20190118_200120.jpg",
+      "2019/IMG_20190118_200456.jpg"
+    ]
+  }
+]</code></pre><p>name：相册标题</p>
+<p>cover：封面图片</p>
+<p>description：相册介绍</p>
+<p>photos：图片列表</p>
+<h3 id="5、创建相片页面"><a href="#5、创建相片页面" class="headerlink" title="5、创建相片页面"></a>5、创建相片页面</h3><p>在博客目录 sources/galleries 中新建与相册名称对应的文件夹，然后在文件夹中创建 index.md 文件，内容的话适当改变就可以，如下示例。</p>
+<pre><code>---
+title: 2017
+date: 2019-12-28 23:19:24
+layout: "gallery"
+---</code></pre><script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
             if (!el.dataset.src) { return; }
@@ -396,7 +681,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://wxl103010.coding.me" rel="external nofollow noreferrer">有意思吧</a>
+                    <a href="http://wxl103010.coding.me" rel="external nofollow noreferrer">wxl103010</a>
                 </span>
             </div>
             <div class="reprint__type">
@@ -406,7 +691,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://wxl103010.coding.me/01-04-na-xie-dian-ying-na-xie-ren-zhong-guo-hao-dao-yan-nei-di-pian.html">http://wxl103010.coding.me/01-04-na-xie-dian-ying-na-xie-ren-zhong-guo-hao-dao-yan-nei-di-pian.html</a>
+                    <a href="http://wxl103010.coding.me/00-05-bo-ke-tian-jia-xiang-ce-ye-mian.html">http://wxl103010.coding.me/00-05-bo-ke-tian-jia-xiang-ce-ye-mian.html</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -419,7 +704,7 @@
                     本博客所有文章除特別声明外，均采用
                     <a href="https://creativecommons.org/licenses/by/4.0/deed.zh" rel="external nofollow noreferrer" target="_blank">CC BY 4.0</a>
                     许可协议。转载请注明来源
-                    <a href="http://wxl103010.coding.me" target="_blank">有意思吧</a>
+                    <a href="http://wxl103010.coding.me" target="_blank">wxl103010</a>
                     !
                 </span>
             </div>
@@ -444,12 +729,16 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/%E6%9C%89%E6%84%8F%E6%80%9D%E5%90%A7/">
-                                    <span class="chip bg-color">有意思吧</span>
+                                <a href="/tags/hexo/">
+                                    <span class="chip bg-color">hexo</span>
                                 </a>
                             
-                                <a href="/tags/%E5%9B%BE%E7%89%87/">
-                                    <span class="chip bg-color">图片</span>
+                                <a href="/tags/matery/">
+                                    <span class="chip bg-color">matery</span>
+                                </a>
+                            
+                                <a href="/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/">
+                                    <span class="chip bg-color">博客搭建</span>
                                 </a>
                             
                         </div>
@@ -882,33 +1171,31 @@
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/01-05-na-xie-dian-ying-na-xie-ren-zhong-guo-hao-dao-yan-gang-tai-pian.html">
+                <a href="/xiang-ce-3d-xuan-zhuan.html">
                     <div class="card-image">
                         
-                        <img src="/img/01-05-01.jpg" class="responsive-img" alt="那些电影那些人：中国好导演（港台篇）">
                         
-                        <span class="card-title">那些电影那些人：中国好导演（港台篇）</span>
+                        <img src="/medias/featureimages/18.jpg" class="responsive-img" alt="相册3D旋转">
+                        
+                        <span class="card-title">相册3D旋转</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                             说明文章摘自《有意思吧》，现已无法打开页面。文章是之前保存的内容，经过编辑后放出。
-原文章发布时间：2013-10-20 12:52:49
-那些电影那些人：中国好导演（港台篇）
-周星驰：作为演员的星爷带给影迷无穷的欢乐与回味，作为导演的他
+                            制作网页相册，呈3D旋转样式。
                         
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2019-12-24
+                            <i class="far fa-clock fa-fw icon-date"></i>2019-12-23
                         </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/%E6%9C%89%E6%84%8F%E6%80%9D%E5%90%A7/" class="post-category">
-                                    有意思吧
+                            <a href="/categories/%E6%9C%89%E8%B6%A3%E7%9A%84%E7%94%B5%E8%84%91%E5%B0%8F%E6%8A%80%E5%B7%A7/" class="post-category">
+                                    有趣的电脑小技巧
                                 </a>
                             
                             
@@ -918,12 +1205,8 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/%E6%9C%89%E6%84%8F%E6%80%9D%E5%90%A7/">
-                        <span class="chip bg-color">有意思吧</span>
-                    </a>
-                    
-                    <a href="/tags/%E5%9B%BE%E7%89%87/">
-                        <span class="chip bg-color">图片</span>
+                    <a href="/tags/%E7%9B%B8%E5%86%8C3D%E6%97%8B%E8%BD%AC/">
+                        <span class="chip bg-color">相册3D旋转</span>
                     </a>
                     
                 </div>
@@ -937,30 +1220,31 @@
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/01-03-na-xie-dian-ying-na-xie-ren-xia.html">
+                <a href="/00-03-bo-ke-tian-jia-wen-zhang-ji-markdown.html">
                     <div class="card-image">
                         
-                        <img src="/img/01-03-01.jpg" class="responsive-img" alt="01_03那些电影那些人（下）">
                         
-                        <span class="card-title">01_03那些电影那些人（下）</span>
+                        <img src="/medias/featureimages/13.jpg" class="responsive-img" alt="博客添加文章及Markdown">
+                        
+                        <span class="card-title">博客添加文章及Markdown</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            平时不太关注明星们的新闻和八卦，不过看了下面对各位明星的描述（应该是很久之前的了），再结合前段时间的各种迎面而来的新闻（比如王菲李亚鹏，比如董洁潘粤明），顿觉娱乐圈之千变万化。是应该说“戏如人生”，还是该说“人生如戏”呢？
+                            博客基础已经做好了，应该写内容了。
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2019-12-24
+                                <i class="far fa-clock fa-fw icon-date"></i>2019-12-20
                             </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/%E6%9C%89%E6%84%8F%E6%80%9D%E5%90%A7/" class="post-category">
-                                    有意思吧
+                            <a href="/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/" class="post-category">
+                                    博客搭建
                                 </a>
                             
                             
@@ -970,12 +1254,12 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/%E6%9C%89%E6%84%8F%E6%80%9D%E5%90%A7/">
-                        <span class="chip bg-color">有意思吧</span>
+                    <a href="/tags/hexo/">
+                        <span class="chip bg-color">hexo</span>
                     </a>
                     
-                    <a href="/tags/%E5%9B%BE%E7%89%87/">
-                        <span class="chip bg-color">图片</span>
+                    <a href="/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/">
+                        <span class="chip bg-color">博客搭建</span>
                     </a>
                     
                 </div>
@@ -1050,6 +1334,100 @@
 <style type="text/css">
 code[class*="language-"], pre[class*="language-"] { white-space: pre !important; }
 </style>
+
+    </div>
+    <div id="toc-aside" class="expanded col l3 hide-on-med-and-down">
+        <div class="toc-widget">
+            <div class="toc-title"><i class="far fa-list-alt"></i>&nbsp;&nbsp;目录</div>
+            <div id="toc-content"></div>
+        </div>
+    </div>
+</div>
+
+<!-- TOC 悬浮按钮. -->
+
+<div id="floating-toc-btn" class="hide-on-med-and-down">
+    <a class="btn-floating btn-large bg-color">
+        <i class="fas fa-list-ul"></i>
+    </a>
+</div>
+
+
+<script src="/libs/tocbot/tocbot.min.js"></script>
+<script>
+    $(function () {
+        tocbot.init({
+            tocSelector: '#toc-content',
+            contentSelector: '#articleContent',
+            headingsOffset: -($(window).height() * 0.4 - 45),
+            collapseDepth: Number('0'),
+            headingSelector: 'h2, h3, h4'
+        });
+
+        // modify the toc link href to support Chinese.
+        let i = 0;
+        let tocHeading = 'toc-heading-';
+        $('#toc-content a').each(function () {
+            $(this).attr('href', '#' + tocHeading + (++i));
+        });
+
+        // modify the heading title id to support Chinese.
+        i = 0;
+        $('#articleContent').children('h2, h3, h4').each(function () {
+            $(this).attr('id', tocHeading + (++i));
+        });
+
+        // Set scroll toc fixed.
+        let tocHeight = parseInt($(window).height() * 0.4 - 64);
+        let $tocWidget = $('.toc-widget');
+        $(window).scroll(function () {
+            let scroll = $(window).scrollTop();
+            /* add post toc fixed. */
+            if (scroll > tocHeight) {
+                $tocWidget.addClass('toc-fixed');
+            } else {
+                $tocWidget.removeClass('toc-fixed');
+            }
+        });
+
+        
+        /* 修复文章卡片 div 的宽度. */
+        let fixPostCardWidth = function (srcId, targetId) {
+            let srcDiv = $('#' + srcId);
+            if (srcDiv.length === 0) {
+                return;
+            }
+
+            let w = srcDiv.width();
+            if (w >= 450) {
+                w = w + 21;
+            } else if (w >= 350 && w < 450) {
+                w = w + 18;
+            } else if (w >= 300 && w < 350) {
+                w = w + 16;
+            } else {
+                w = w + 14;
+            }
+            $('#' + targetId).width(w);
+        };
+
+        // 切换TOC目录展开收缩的相关操作.
+        const expandedClass = 'expanded';
+        let $tocAside = $('#toc-aside');
+        let $mainContent = $('#main-content');
+        $('#floating-toc-btn .btn-floating').click(function () {
+            if ($tocAside.hasClass(expandedClass)) {
+                $tocAside.removeClass(expandedClass).hide();
+                $mainContent.removeClass('l9');
+            } else {
+                $tocAside.addClass(expandedClass).show();
+                $mainContent.addClass('l9');
+            }
+            fixPostCardWidth('artDetail', 'prenext-posts');
+        });
+        
+    });
+</script>
 
     
 

@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://wxl103010.coding.me/"/>
-  <updated>2019-12-28T12:43:04.980Z</updated>
+  <updated>2019-12-29T09:31:00.145Z</updated>
   <id>http://wxl103010.coding.me/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>【巫言乱语（小巫惊悚第三季）】之：童年的终结</title>
-    <link href="http://wxl103010.coding.me/02-02-wu-yan-luan-yu-xiao-wu-liang-song-di-san-ji-zhi-tong-nian-de-zhong-jie.html"/>
-    <id>http://wxl103010.coding.me/02-02-wu-yan-luan-yu-xiao-wu-liang-song-di-san-ji-zhi-tong-nian-de-zhong-jie.html</id>
-    <published>2019-12-24T07:50:08.000Z</published>
-    <updated>2019-12-28T12:43:04.980Z</updated>
+    <title>00_06博客添加音乐页面</title>
+    <link href="http://wxl103010.coding.me/00-06-bo-ke-tian-jia-yin-le-ye-mian.html"/>
+    <id>http://wxl103010.coding.me/00-06-bo-ke-tian-jia-yin-le-ye-mian.html</id>
+    <published>2019-12-29T08:09:50.000Z</published>
+    <updated>2019-12-29T09:31:00.145Z</updated>
     
     <summary type="html">
     
@@ -29,8 +29,36 @@
       
         
         
-          &lt;h5 id=&quot;说明&quot;&gt;&lt;a href=&quot;#说明&quot; class=&quot;headerlink&quot; title=&quot;说明&quot;&gt;&lt;/a&gt;说明&lt;/h5&gt;&lt;p&gt;文章摘自《有意思吧》，现已无法打开页面。文章是之前保存的内容，经过编辑后放出。&lt;/p&gt;
-&lt;p&gt;原文章发布时间：2014-04-30
+          &lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;p&gt;[^_^]: #
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="hexo" scheme="http://wxl103010.coding.me/tags/hexo/"/>
+    
+      <category term="matery" scheme="http://wxl103010.coding.me/tags/matery/"/>
+    
+      <category term="博客搭建" scheme="http://wxl103010.coding.me/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【巫言乱语（小巫惊悚第三季）】之：童年的终结</title>
+    <link href="http://wxl103010.coding.me/02-02-wu-yan-luan-yu-xiao-wu-liang-song-di-san-ji-zhi-tong-nian-de-zhong-jie.html"/>
+    <id>http://wxl103010.coding.me/02-02-wu-yan-luan-yu-xiao-wu-liang-song-di-san-ji-zhi-tong-nian-de-zhong-jie.html</id>
+    <published>2019-12-24T07:50:08.000Z</published>
+    <updated>2019-12-29T09:31:54.925Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;h5 id=&quot;说明&quot;&gt;&lt;a href=&quot;#说明&quot; class=&quot;headerlink&quot;
         
       
     
@@ -40,7 +68,9 @@
       <category term="有意思吧" scheme="http://wxl103010.coding.me/categories/%E6%9C%89%E6%84%8F%E6%80%9D%E5%90%A7/"/>
     
     
-      <category term="有意思吧-文字" scheme="http://wxl103010.coding.me/tags/%E6%9C%89%E6%84%8F%E6%80%9D%E5%90%A7-%E6%96%87%E5%AD%97/"/>
+      <category term="有意思吧" scheme="http://wxl103010.coding.me/tags/%E6%9C%89%E6%84%8F%E6%80%9D%E5%90%A7/"/>
+    
+      <category term="文字" scheme="http://wxl103010.coding.me/tags/%E6%96%87%E5%AD%97/"/>
     
   </entry>
   
@@ -49,7 +79,7 @@
     <link href="http://wxl103010.coding.me/02-01-wu-yan-luan-yu-hou-yuan-wo-de-tao-yuan-xiang-wo-de-tu-zi-dong.html"/>
     <id>http://wxl103010.coding.me/02-01-wu-yan-luan-yu-hou-yuan-wo-de-tao-yuan-xiang-wo-de-tu-zi-dong.html</id>
     <published>2019-12-24T07:37:08.000Z</published>
-    <updated>2019-12-28T12:43:44.015Z</updated>
+    <updated>2019-12-29T09:31:52.295Z</updated>
     
     <summary type="html">
     
@@ -57,8 +87,7 @@
       
         
         
-          &lt;h5 id=&quot;说明&quot;&gt;&lt;a href=&quot;#说明&quot; class=&quot;headerlink&quot; title=&quot;说明&quot;&gt;&lt;/a&gt;说明&lt;/h5&gt;&lt;p&gt;文章摘自《有意思吧》，现已无法打开页面。文章是之前保存的内容，经过编辑后放出。&lt;/p&gt;
-&lt;p&gt;原文章发布时间：2013-10-08
+          &lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;h5 id=&quot;说明&quot;&gt;&lt;a href=&quot;#说明&quot; class=&quot;headerlink&quot;
         
       
     
@@ -68,7 +97,9 @@
       <category term="有意思吧" scheme="http://wxl103010.coding.me/categories/%E6%9C%89%E6%84%8F%E6%80%9D%E5%90%A7/"/>
     
     
-      <category term="有意思吧-文字" scheme="http://wxl103010.coding.me/tags/%E6%9C%89%E6%84%8F%E6%80%9D%E5%90%A7-%E6%96%87%E5%AD%97/"/>
+      <category term="有意思吧" scheme="http://wxl103010.coding.me/tags/%E6%9C%89%E6%84%8F%E6%80%9D%E5%90%A7/"/>
+    
+      <category term="文字" scheme="http://wxl103010.coding.me/tags/%E6%96%87%E5%AD%97/"/>
     
   </entry>
   
@@ -77,7 +108,7 @@
     <link href="http://wxl103010.coding.me/01-05-na-xie-dian-ying-na-xie-ren-zhong-guo-hao-dao-yan-gang-tai-pian.html"/>
     <id>http://wxl103010.coding.me/01-05-na-xie-dian-ying-na-xie-ren-zhong-guo-hao-dao-yan-gang-tai-pian.html</id>
     <published>2019-12-24T07:23:22.000Z</published>
-    <updated>2019-12-28T12:43:47.122Z</updated>
+    <updated>2019-12-29T09:31:40.492Z</updated>
     
     <summary type="html">
     
@@ -85,8 +116,7 @@
       
         
         
-          &lt;h5 id=&quot;说明&quot;&gt;&lt;a href=&quot;#说明&quot; class=&quot;headerlink&quot; title=&quot;说明&quot;&gt;&lt;/a&gt;说明&lt;/h5&gt;&lt;p&gt;文章摘自《有意思吧》，现已无法打开页面。文章是之前保存的内容，经过编辑后放出。&lt;/p&gt;
-&lt;p&gt;原文章发布时间：2013-10-20
+          &lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;h5 id=&quot;说明&quot;&gt;&lt;a href=&quot;#说明&quot; class=&quot;headerlink&quot;
         
       
     
@@ -96,7 +126,9 @@
       <category term="有意思吧" scheme="http://wxl103010.coding.me/categories/%E6%9C%89%E6%84%8F%E6%80%9D%E5%90%A7/"/>
     
     
-      <category term="有意思吧-图片" scheme="http://wxl103010.coding.me/tags/%E6%9C%89%E6%84%8F%E6%80%9D%E5%90%A7-%E5%9B%BE%E7%89%87/"/>
+      <category term="有意思吧" scheme="http://wxl103010.coding.me/tags/%E6%9C%89%E6%84%8F%E6%80%9D%E5%90%A7/"/>
+    
+      <category term="图片" scheme="http://wxl103010.coding.me/tags/%E5%9B%BE%E7%89%87/"/>
     
   </entry>
   
@@ -105,7 +137,7 @@
     <link href="http://wxl103010.coding.me/01-04-na-xie-dian-ying-na-xie-ren-zhong-guo-hao-dao-yan-nei-di-pian.html"/>
     <id>http://wxl103010.coding.me/01-04-na-xie-dian-ying-na-xie-ren-zhong-guo-hao-dao-yan-nei-di-pian.html</id>
     <published>2019-12-24T07:14:12.000Z</published>
-    <updated>2019-12-28T12:43:50.137Z</updated>
+    <updated>2019-12-29T09:31:36.857Z</updated>
     
     <summary type="html">
     
@@ -113,8 +145,7 @@
       
         
         
-          &lt;h5 id=&quot;说明&quot;&gt;&lt;a href=&quot;#说明&quot; class=&quot;headerlink&quot; title=&quot;说明&quot;&gt;&lt;/a&gt;说明&lt;/h5&gt;&lt;p&gt;文章摘自《有意思吧》，现已无法打开页面。文章是之前保存的内容，经过编辑后放出。&lt;/p&gt;
-&lt;p&gt;原文章发布时间：2013-10-15
+          &lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;h5 id=&quot;说明&quot;&gt;&lt;a href=&quot;#说明&quot; class=&quot;headerlink&quot;
         
       
     
@@ -124,16 +155,18 @@
       <category term="有意思吧" scheme="http://wxl103010.coding.me/categories/%E6%9C%89%E6%84%8F%E6%80%9D%E5%90%A7/"/>
     
     
-      <category term="有意思吧-图片" scheme="http://wxl103010.coding.me/tags/%E6%9C%89%E6%84%8F%E6%80%9D%E5%90%A7-%E5%9B%BE%E7%89%87/"/>
+      <category term="有意思吧" scheme="http://wxl103010.coding.me/tags/%E6%9C%89%E6%84%8F%E6%80%9D%E5%90%A7/"/>
+    
+      <category term="图片" scheme="http://wxl103010.coding.me/tags/%E5%9B%BE%E7%89%87/"/>
     
   </entry>
   
   <entry>
-    <title>01-03那些电影那些人（下）</title>
+    <title>01_03那些电影那些人（下）</title>
     <link href="http://wxl103010.coding.me/01-03-na-xie-dian-ying-na-xie-ren-xia.html"/>
     <id>http://wxl103010.coding.me/01-03-na-xie-dian-ying-na-xie-ren-xia.html</id>
     <published>2019-12-24T06:52:26.000Z</published>
-    <updated>2019-12-28T12:43:53.192Z</updated>
+    <updated>2019-12-29T09:31:34.026Z</updated>
     
     <summary type="html">
     
@@ -141,8 +174,7 @@
       
         
         
-          &lt;h5 id=&quot;说明&quot;&gt;&lt;a href=&quot;#说明&quot; class=&quot;headerlink&quot; title=&quot;说明&quot;&gt;&lt;/a&gt;说明&lt;/h5&gt;&lt;p&gt;文章摘自《有意思吧》，现已无法打开页面。文章是之前保存的内容，经过编辑后放出。&lt;/p&gt;
-&lt;p&gt;原文章发布时间：2013-10-08
+          &lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;h5 id=&quot;说明&quot;&gt;&lt;a href=&quot;#说明&quot; class=&quot;headerlink&quot;
         
       
     
@@ -152,7 +184,9 @@
       <category term="有意思吧" scheme="http://wxl103010.coding.me/categories/%E6%9C%89%E6%84%8F%E6%80%9D%E5%90%A7/"/>
     
     
-      <category term="有意思吧-图片" scheme="http://wxl103010.coding.me/tags/%E6%9C%89%E6%84%8F%E6%80%9D%E5%90%A7-%E5%9B%BE%E7%89%87/"/>
+      <category term="有意思吧" scheme="http://wxl103010.coding.me/tags/%E6%9C%89%E6%84%8F%E6%80%9D%E5%90%A7/"/>
+    
+      <category term="图片" scheme="http://wxl103010.coding.me/tags/%E5%9B%BE%E7%89%87/"/>
     
   </entry>
   
@@ -161,7 +195,7 @@
     <link href="http://wxl103010.coding.me/01-02-na-xie-dian-ying-na-xie-ren-zhong.html"/>
     <id>http://wxl103010.coding.me/01-02-na-xie-dian-ying-na-xie-ren-zhong.html</id>
     <published>2019-12-24T06:41:43.000Z</published>
-    <updated>2019-12-28T12:43:56.036Z</updated>
+    <updated>2019-12-29T09:31:31.568Z</updated>
     
     <summary type="html">
     
@@ -169,8 +203,7 @@
       
         
         
-          &lt;h5 id=&quot;说明&quot;&gt;&lt;a href=&quot;#说明&quot; class=&quot;headerlink&quot; title=&quot;说明&quot;&gt;&lt;/a&gt;说明&lt;/h5&gt;&lt;p&gt;文章摘自《有意思吧》，现已无法打开页面。文章是之前保存的内容，经过编辑后放出。&lt;/p&gt;
-&lt;p&gt;原文章发布时间：2013-10-10
+          &lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;h5 id=&quot;说明&quot;&gt;&lt;a href=&quot;#说明&quot; class=&quot;headerlink&quot;
         
       
     
@@ -180,7 +213,9 @@
       <category term="有意思吧" scheme="http://wxl103010.coding.me/categories/%E6%9C%89%E6%84%8F%E6%80%9D%E5%90%A7/"/>
     
     
-      <category term="有意思吧-图片" scheme="http://wxl103010.coding.me/tags/%E6%9C%89%E6%84%8F%E6%80%9D%E5%90%A7-%E5%9B%BE%E7%89%87/"/>
+      <category term="有意思吧" scheme="http://wxl103010.coding.me/tags/%E6%9C%89%E6%84%8F%E6%80%9D%E5%90%A7/"/>
+    
+      <category term="图片" scheme="http://wxl103010.coding.me/tags/%E5%9B%BE%E7%89%87/"/>
     
   </entry>
   
@@ -189,7 +224,7 @@
     <link href="http://wxl103010.coding.me/01-01-na-xie-dian-ying-na-xie-ren-shang.html"/>
     <id>http://wxl103010.coding.me/01-01-na-xie-dian-ying-na-xie-ren-shang.html</id>
     <published>2019-12-24T06:04:52.000Z</published>
-    <updated>2019-12-28T12:43:59.442Z</updated>
+    <updated>2019-12-29T09:31:27.897Z</updated>
     
     <summary type="html">
     
@@ -197,8 +232,7 @@
       
         
         
-          &lt;h5 id=&quot;说明&quot;&gt;&lt;a href=&quot;#说明&quot; class=&quot;headerlink&quot; title=&quot;说明&quot;&gt;&lt;/a&gt;说明&lt;/h5&gt;&lt;p&gt;文章摘自《有意思吧》，现已无法打开页面。文章是之前保存的内容，经过编辑后放出。&lt;/p&gt;
-&lt;p&gt;原文章发布时间：2013-10-08
+          &lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;h5 id=&quot;说明&quot;&gt;&lt;a href=&quot;#说明&quot; class=&quot;headerlink&quot;
         
       
     
@@ -208,7 +242,9 @@
       <category term="有意思吧" scheme="http://wxl103010.coding.me/categories/%E6%9C%89%E6%84%8F%E6%80%9D%E5%90%A7/"/>
     
     
-      <category term="有意思吧-图片" scheme="http://wxl103010.coding.me/tags/%E6%9C%89%E6%84%8F%E6%80%9D%E5%90%A7-%E5%9B%BE%E7%89%87/"/>
+      <category term="有意思吧" scheme="http://wxl103010.coding.me/tags/%E6%9C%89%E6%84%8F%E6%80%9D%E5%90%A7/"/>
+    
+      <category term="图片" scheme="http://wxl103010.coding.me/tags/%E5%9B%BE%E7%89%87/"/>
     
   </entry>
   
@@ -225,7 +261,7 @@
       
         
         
-          &lt;h2 id=&quot;相册3D旋转&quot;&gt;&lt;a href=&quot;#相册3D旋转&quot; class=&quot;headerlink&quot;
+          &lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;h2 id=&quot;相册3D旋转&quot;&gt;&lt;a href=&quot;#相册3D旋转&quot; class=&quot;headerlink&quot;
         
       
     
@@ -240,11 +276,11 @@
   </entry>
   
   <entry>
-    <title>博客添加音乐页面</title>
-    <link href="http://wxl103010.coding.me/00-05-bo-ke-tian-jia-yin-le-ye-mian.html"/>
-    <id>http://wxl103010.coding.me/00-05-bo-ke-tian-jia-yin-le-ye-mian.html</id>
+    <title>博客添加相册页面</title>
+    <link href="http://wxl103010.coding.me/00-05-bo-ke-tian-jia-xiang-ce-ye-mian.html"/>
+    <id>http://wxl103010.coding.me/00-05-bo-ke-tian-jia-xiang-ce-ye-mian.html</id>
     <published>2019-12-21T12:33:28.000Z</published>
-    <updated>2019-12-28T12:44:35.824Z</updated>
+    <updated>2019-12-29T09:30:52.502Z</updated>
     
     <summary type="html">
     
@@ -252,7 +288,7 @@
       
         
         
-          &lt;h2 id=&quot;说明&quot;&gt;&lt;a href=&quot;#说明&quot; class=&quot;headerlink&quot;
+          &lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;h2 id=&quot;说明&quot;&gt;&lt;a href=&quot;#说明&quot; class=&quot;headerlink&quot;
         
       
     
@@ -262,7 +298,11 @@
       <category term="博客搭建" scheme="http://wxl103010.coding.me/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
     
     
-      <category term="博客添加音乐页面" scheme="http://wxl103010.coding.me/tags/%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E9%9F%B3%E4%B9%90%E9%A1%B5%E9%9D%A2/"/>
+      <category term="hexo" scheme="http://wxl103010.coding.me/tags/hexo/"/>
+    
+      <category term="matery" scheme="http://wxl103010.coding.me/tags/matery/"/>
+    
+      <category term="博客搭建" scheme="http://wxl103010.coding.me/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
     
   </entry>
   
@@ -271,7 +311,7 @@
     <link href="http://wxl103010.coding.me/00-03-bo-ke-tian-jia-wen-zhang-ji-markdown.html"/>
     <id>http://wxl103010.coding.me/00-03-bo-ke-tian-jia-wen-zhang-ji-markdown.html</id>
     <published>2019-12-20T11:01:13.000Z</published>
-    <updated>2019-12-28T12:44:20.817Z</updated>
+    <updated>2019-12-29T09:30:21.270Z</updated>
     
     <summary type="html">
     
@@ -279,8 +319,7 @@
       
         
         
-          &lt;p&gt;[^_^]: # (title:文章标题；date：发布时间；author文章作者；categories：分类；img：文章特征图；top：是否首页顶置；summary：文章简要；tags：标签；keywords：文章关键字)；toc：关闭文章目录&lt;/p&gt;
-&lt;script
+          &lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;p&gt;[^_^]: #
         
       
     
@@ -290,11 +329,9 @@
       <category term="博客搭建" scheme="http://wxl103010.coding.me/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
     
     
-      <category term="matery" scheme="http://wxl103010.coding.me/tags/matery/"/>
+      <category term="hexo" scheme="http://wxl103010.coding.me/tags/hexo/"/>
     
       <category term="博客搭建" scheme="http://wxl103010.coding.me/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
-    
-      <category term="hexo" scheme="http://wxl103010.coding.me/tags/hexo/"/>
     
   </entry>
   
@@ -303,7 +340,7 @@
     <link href="http://wxl103010.coding.me/00-04-bo-ke-you-hua.html"/>
     <id>http://wxl103010.coding.me/00-04-bo-ke-you-hua.html</id>
     <published>2019-12-19T15:51:05.000Z</published>
-    <updated>2019-12-28T14:46:54.670Z</updated>
+    <updated>2019-12-29T09:26:07.790Z</updated>
     
     <summary type="html">
     
@@ -311,8 +348,7 @@
       
         
         
-          &lt;p&gt;[^_^]: # (title:文章标题；date：发布时间；author文章作者；categories：分类；img：文章特征图；top：是否首页顶置；summary：文章简要；tags：标签；keywords：文章关键字)；toc：关闭文章目录&lt;/p&gt;
-&lt;script
+          &lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;p&gt;[^_^]: #
         
       
     
@@ -322,11 +358,11 @@
       <category term="博客搭建" scheme="http://wxl103010.coding.me/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
     
     
+      <category term="hexo" scheme="http://wxl103010.coding.me/tags/hexo/"/>
+    
       <category term="matery" scheme="http://wxl103010.coding.me/tags/matery/"/>
     
       <category term="博客搭建" scheme="http://wxl103010.coding.me/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
-    
-      <category term="hexo" scheme="http://wxl103010.coding.me/tags/hexo/"/>
     
   </entry>
   
@@ -343,8 +379,7 @@
       
         
         
-          &lt;p&gt;[^_^]: # (title:文章标题；date：发布时间；author文章作者；categories：分类；img：文章特征图；top：是否首页顶置；summary：文章简要；tags：标签；keywords：文章关键字)；toc：关闭文章目录&lt;/p&gt;
-&lt;script
+          &lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;p&gt;[^_^]: #
         
       
     
@@ -373,8 +408,7 @@
       
         
         
-          &lt;p&gt;[^_^]: # (title:文章标题；date：发布时间；author文章作者；categories：分类；img：文章特征图；top：是否首页顶置；summary：文章简要；tags：标签；keywords：文章关键字)；toc：关闭文章目录&lt;/p&gt;
-&lt;script
+          &lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;p&gt;[^_^]: #
         
       
     
@@ -384,9 +418,9 @@
       <category term="博客搭建" scheme="http://wxl103010.coding.me/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
     
     
-      <category term="博客搭建" scheme="http://wxl103010.coding.me/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
-    
       <category term="hexo" scheme="http://wxl103010.coding.me/tags/hexo/"/>
+    
+      <category term="博客搭建" scheme="http://wxl103010.coding.me/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
     
   </entry>
   

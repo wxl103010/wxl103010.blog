@@ -4,8 +4,8 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="标签: 博客添加音乐页面, Collection">
-    <meta name="description" content="标签: 博客添加音乐页面 | Collection">
+    <meta name="keywords" content="2017, Collection">
+    <meta name="description" content="2017 | Collection">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -13,7 +13,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>标签: 博客添加音乐页面 | Collection</title>
+    <title>2017 | Collection</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -64,18 +64,7 @@
       
       <i class="fas fa-tags" style="zoom: 0.6;"></i>
       
-      <span>标签</span>
-    </a>
-    
-  </li>
-  
-  <li class="hide-on-med-and-down nav-item">
-    
-    <a href="/categories" class="waves-effect waves-light">
-      
-      <i class="fas fa-bookmark" style="zoom: 0.6;"></i>
-      
-      <span>文章</span>
+      <span>文章目录</span>
     </a>
     
   </li>
@@ -87,6 +76,17 @@
       <i class="fas fa-music" style="zoom: 0.6;"></i>
       
       <span>音乐</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/galleries" class="waves-effect waves-light">
+      
+      <i class="fas fa-image" style="zoom: 0.6;"></i>
+      
+      <span>相册</span>
     </a>
     
   </li>
@@ -120,17 +120,6 @@
       <i class="fas fa-user-circle" style="zoom: 0.6;"></i>
       
       <span>关于</span>
-    </a>
-    
-  </li>
-  
-  <li class="hide-on-med-and-down nav-item">
-    
-    <a href="/contact" class="waves-effect waves-light">
-      
-      <i class="fas fa-comments" style="zoom: 0.6;"></i>
-      
-      <span>联系</span>
     </a>
     
   </li>
@@ -177,18 +166,7 @@
 			
 			    <i class="fa-fw fas fa-tags"></i>
 			
-			标签
-		</a>
-          
-        </li>
-        
-        <li class="m-nav-item">
-	  
-		<a href="/categories" class="waves-effect waves-light">
-			
-			    <i class="fa-fw fas fa-bookmark"></i>
-			
-			文章
+			文章目录
 		</a>
           
         </li>
@@ -200,6 +178,17 @@
 			    <i class="fa-fw fas fa-music"></i>
 			
 			音乐
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/galleries" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-image"></i>
+			
+			相册
 		</a>
           
         </li>
@@ -237,17 +226,6 @@
           
         </li>
         
-        <li class="m-nav-item">
-	  
-		<a href="/contact" class="waves-effect waves-light">
-			
-			    <i class="fa-fw fas fa-comments"></i>
-			
-			联系
-		</a>
-          
-        </li>
-        
         
     </ul>
 </div>
@@ -259,170 +237,49 @@
 
 </header>
 
-    <div class="bg-cover pd-header about-cover">
-    <div class="container">
-    <div class="row">
-    <div class="col s10 offset-s1 m8 offset-m2 l8 offset-l2">
-        <div class="brand">
-            <div class="title center-align">
-                
-                wxl103010个人博客
-                
-            </div>
-
-            <div class="description center-align">
-                
-                <span id="subtitle"></span>
-                <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
-                <script>
-                    var typed = new Typed("#subtitle", {
-                        strings: ['只收藏认为有意义的内容',''],
-                        startDelay: 300,
-                        typeSpeed: 100,
-                        loop: true,
-                        backSpeed: 50,
-                        showCursor: true
-                    });
-                </script>
-                
-            </div>
-        </div>
-    </div>
-</div>
+    <link rel="stylesheet" href="/css/gallery.css">
+<link type="text/css" href="/libs/fancybox/jquery.fancybox.css" rel="stylesheet">
+<link type="text/css" href="/libs/justifiedGallery/justifiedGallery.min.css" rel="stylesheet">
 
 
-<script>
-    // 每天切换 banner 图.  Switch banner image every day.
-    $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay() + '.jpg)');
-</script>
 
-
-    </div>
-</div>
-
-<main class="content">
-
-    
-
-<div id="tags" class="container chip-container">
-    <div class="card">
-        <div class="card-content">
-            <div class="tag-title center-align">
-                <i class="fas fa-tags"></i>&nbsp;&nbsp;文章标签
-            </div>
-            <div class="tag-chips">
-                
-                
-                <a href="/tags/matery/" title="matery: 3">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="matery" style="background-color: #F9EBEA;">matery
-                        <span class="tag-length">3</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/" title="博客搭建: 4">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="博客搭建" style="background-color: #F5EEF8;">博客搭建
-                        <span class="tag-length">4</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/hexo/" title="hexo: 3">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="hexo" style="background-color: #D5F5E3;">hexo
-                        <span class="tag-length">3</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/%E6%9C%89%E6%84%8F%E6%80%9D%E5%90%A7-%E5%9B%BE%E7%89%87/" title="有意思吧-图片: 5">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="有意思吧-图片" style="background-color: #E8F8F5;">有意思吧-图片
-                        <span class="tag-length">5</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E9%9F%B3%E4%B9%90%E9%A1%B5%E9%9D%A2/" title="博客添加音乐页面: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-active "
-                            data-tagname="博客添加音乐页面" style="background-color: #FEF9E7;">博客添加音乐页面
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/%E6%9C%89%E6%84%8F%E6%80%9D%E5%90%A7-%E6%96%87%E5%AD%97/" title="有意思吧-文字: 2">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="有意思吧-文字" style="background-color: #F8F9F9;">有意思吧-文字
-                        <span class="tag-length">2</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/%E7%9B%B8%E5%86%8C3D%E6%97%8B%E8%BD%AC/" title="相册3D旋转: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="相册3D旋转" style="background-color: #82E0AA;">相册3D旋转
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-            </div>
-        </div>
-    </div>
-</div>
-
-    
-
-    <article id="articles" class="container articles">
-        <div class="row tags-posts">
-            
-            
-            <div class="article tag-post col s12 m6 l4" data-tags="博客添加音乐页面" data-aos="fade-up">
-                <div class="card">
-                    <a href="/00-05-bo-ke-tian-jia-yin-le-ye-mian.html">
-                        <div class="card-image tag-image">
-                            
-                            
-                            <img src="/medias/featureimages/7.jpg" class="responsive-img" alt="博客添加音乐页面">
-                            
-                            <span class="card-title">博客添加音乐页面</span>
-                        </div>
-                    </a>
-                    <div class="card-content article-content">
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2019-12-21
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fas fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/" class="post-category">
-                                博客搭建
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/4.jpg')">
+    <div class="container" style="right: 0px;left: 0px;">
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <div class="brand">
+                    <h1 class="description center-align post-title">2017</h1>
                 </div>
             </div>
-            
         </div>
-    </article>
-</main>
+    </div>
+</div>
 
 
 
+<div class="container">
+    <div class="photo-wrapper">
+        <div class="waterfall" id="mygallery">
+            <a href="http://localhost/img/01-01-01.jpg" target="_blank"     class="photo-item" rel="example_group noopener"     data-fancybox="images">      <img src="http://localhost/img/01-01-01.jpg"       alt=/img/01-01-01.jpg>
+    </a><a href="http://localhost/img/01-01-02.jpg" target="_blank"     class="photo-item" rel="example_group noopener"     data-fancybox="images">      <img src="http://localhost/img/01-01-02.jpg"       alt=/img/01-01-02.jpg>
+    </a><a href="http://localhost/img/01-01-03.jpg" target="_blank"     class="photo-item" rel="example_group noopener"     data-fancybox="images">      <img src="http://localhost/img/01-01-03.jpg"       alt=/img/01-01-03.jpg>
+    </a><a href="http://localhost/img/01-01-04.jpg" target="_blank"     class="photo-item" rel="example_group noopener"     data-fancybox="images">      <img src="http://localhost/img/01-01-04.jpg"       alt=/img/01-01-04.jpg>
+    </a><a href="http://localhost/img/01-01-05.jpg" target="_blank"     class="photo-item" rel="example_group noopener"     data-fancybox="images">      <img src="http://localhost/img/01-01-05.jpg"       alt=/img/01-01-05.jpg>
+    </a>
+
+        </div>
+    </div>
+</div>
+
+
+<script src="/libs/fancybox/fancybox.js"></script>
+<script src="/libs/justifiedGallery/justifiedGallery.min.js"></script>
+<script>
+
+  $("a[rel=example_group]").fancybox();
+  $("#mygallery").justifiedGallery({margins: 5, rowHeight: 150});
+
+</script>
 
     <footer class="page-footer bg-color">
     <div class="container row center-align" style="margin-bottom: 15px !important;">

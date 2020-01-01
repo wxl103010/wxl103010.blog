@@ -428,6 +428,8 @@
 <h3 id="解决首页标题乱码"><a href="#解决首页标题乱码" class="headerlink" title="解决首页标题乱码"></a>解决首页标题乱码</h3><p>首页正中间的标题与左上角的名字，可以在博客文件夹的_config.yml中修改title和subtitle来进行。</p>
 <p>因为该文件的编码方式默认是ANSI，所以如果想使用中文标题，则需要修改_config.yml的编码方式。</p>
 <p>本人使用Notepad++来修改，先打开文件，然后全选复制，接着修改文件编码方式，这时里面的内容会变为乱码，全部选中粘贴，保存即可。</p>
+<h3 id="Code-403-访问被api域名白名单拒绝-请检查你的安全域名设置"><a href="#Code-403-访问被api域名白名单拒绝-请检查你的安全域名设置" class="headerlink" title="Code 403: 访问被api域名白名单拒绝,请检查你的安全域名设置."></a>Code 403: 访问被api域名白名单拒绝,请检查你的安全域名设置.</h3><p>这个是leancloud留言存放中，安全选项里没有添加现在登录的域名，所以被拒绝了。</p>
+<p>登录leancloud首页，打开添加的项目，然后在安全选项中，将现在所登录使用的域名，保存进去就OK。</p>
 <h2 id="评论系统"><a href="#评论系统" class="headerlink" title="评论系统"></a>评论系统</h2><h3 id="Valine"><a href="#Valine" class="headerlink" title="Valine"></a>Valine</h3><p>1）首先在 <a href="https://leancloud.cn/" target="_blank" rel="noopener">https://leancloud.cn/</a> 这儿先进行账号注册，并且验证完成，然后创建一个应用。</p>
 <p>2）创建好后打开应用的设置，找到应用key，保存appid和appkey。</p>
 <p>3）在安全中心，将自己的域名，也就是博客访问地址添加到Web安全域名中。</p>
